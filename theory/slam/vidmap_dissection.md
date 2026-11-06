@@ -473,7 +473,7 @@ README 报告的加速：hops `[1,2,4,8]` 约省 9.9% 提取时间、精度几�
 - 论文：https://arxiv.org/abs/2607.27194
 - 代码：https://github.com/cvg/vidmap
 - GLOMAP：https://github.com/colmap/glomap
-- RoMa v2：https://arxiv.org/abs/2509.xxxxx（以论文引用 [18] 为准）
-- Depth Anything 3：以论文引用 [32] 为准
-- MegaLoc：以论文引用 [1] 为准
-- GeoCalib：以论文引用 [57] 为准
+- RoMa v2：https://arxiv.org/abs/2511.15706
+- Depth Anything 3：https://arxiv.org/abs/2511.10647
+- MegaLoc：论文引用 [1]（CVPRW 2025）
+- GeoCalib：论文引用 [57]（ECCV 2024）
