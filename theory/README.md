@@ -18,6 +18,7 @@
 | [MASt3R 深度解析](3r/mast3r_dissection.md) | 3D grounded matching、metric pointmaps、快速互惠匹配 | verified | 2026-11-06 |
 | [VGGT 深度解析](3r/vggt_dissection.md) | 多视图一次前向、相机/深度/点图/跟踪 | verified | 2026-11-06 |
 | [GLUEMAP 深度解析](slam/gluemap_dissection.md) | 全局 SfM、前馈星图推理、运动平均、增强 BA | verified | 2026-11-06 |
+| [VidMap 深度解析](slam/vidmap_dissection.md) | 视频 SfM、时序 track、provenance-aware 优化、metric depth 先验 | verified | 2026-11-06 |
 
 ## 写作约定
 
