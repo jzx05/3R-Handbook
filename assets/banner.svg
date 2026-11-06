@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-label="3R Handbook — 3D Geometric Foundation Models, Feed-forward Reconstruction, SLAM">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1220"/>
+      <stop offset="0.55" stop-color="#0F2744"/>
+      <stop offset="1" stop-color="#123A5A"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#6B8AFE"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="240" fill="url(#bg)"/>
+
+  <g opacity="0.20" stroke="url(#accent)" fill="none" stroke-width="1.2">
+    <path d="M735 196 L846 58 L1004 108 L1114 34"/>
+    <path d="M735 196 L892 152 L1004 108"/>
+    <path d="M846 58 L892 152"/>
+    <path d="M1004 108 L1080 178 L1114 34"/>
+    <path d="M892 152 L1080 178"/>
+    <circle cx="735" cy="196" r="4" fill="url(#accent)" stroke="none"/>
+    <circle cx="846" cy="58" r="4" fill="url(#accent)" stroke="none"/>
+    <circle cx="892" cy="152" r="4" fill="url(#accent)" stroke="none"/>
+    <circle cx="1004" cy="108" r="4" fill="url(#accent)" stroke="none"/>
+    <circle cx="1080" cy="178" r="4" fill="url(#accent)" stroke="none"/>
+    <circle cx="1114" cy="34" r="4" fill="url(#accent)" stroke="none"/>
+  </g>
+
+  <rect x="64" y="58" width="6" height="112" rx="3" fill="url(#accent)"/>
+
+  <text x="94" y="104" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif"
+        font-size="46" font-weight="700" fill="#F8FAFC" letter-spacing="0.5">3R Handbook</text>
+
+  <text x="96" y="140" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif"
+        font-size="19" fill="#CBD5E1">3D Geometric Foundation Models · Feed-forward Reconstruction · SLAM</text>
+
+  <text x="96" y="178" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif"
+        font-size="13" fill="#7DD3FC" letter-spacing="2.2">AUTO-SYNCED FROM ALL-3R-SLAM · CURATED FOR RESEARCHERS</text>
+</svg>

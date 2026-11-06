@@ -1,0 +1,91 @@
+name: Sync upstream
+
+# Every 2 hours (minute 17, UTC). GitHub cron is best-effort; the job is a
+# no-op unless the upstream README hash actually changed.
+on:
+  schedule:
+    - cron: '17 */2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: sync-upstream
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Sync upstream + enrich + build
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/sync_upstream.py
+
+      - name: Structure audit
+        run: python3 scripts/audit.py --strict
+
+      - name: Parser regression tests
+        run: python3 -m unittest discover -s scripts -p 'test_*.py' -v
+
+      - name: Commit and push (only when changed)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git config user.name "3R Handbook Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          DATE=$(date -u +%F)
+          git commit -m "auto(sync): update 3R catalogue ${DATE}"
+          git pull --rebase origin main || {
+            echo "Rebase failed; manual intervention needed."
+            exit 1
+          }
+          git push origin main || {
+            git pull --rebase origin main
+            git push origin main
+          }
+
+      - name: Open or update failure issue
+        if: failure()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TITLE="[pipeline-alert] 3R Handbook sync failing"
+          BODY="Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }} ($(date -u +%FT%TZ))"
+          NUM=$(gh issue list --state open --search "$TITLE in:title" --json number --jq '.[0].number // empty' || true)
+          if [ -n "$NUM" ]; then
+            gh issue comment "$NUM" --body "$BODY"
+          else
+            gh issue create --title "$TITLE" --body "$BODY"
+          fi
+
+      - name: Close recovered alert
+        if: success()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TITLE="[pipeline-alert] 3R Handbook sync failing"
+          NUM=$(gh issue list --state open --search "$TITLE in:title" --json number --jq '.[0].number // empty' || true)
+          if [ -n "$NUM" ]; then
+            gh issue comment "$NUM" --body "Recovered: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }} succeeded at $(date -u +%FT%TZ)"
+            gh issue close "$NUM"
+          fi

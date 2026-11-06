@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "_comment": "Manually curated entries. They survive upstream edits and are marked source=manual. Keep fields consistent with data/papers.json. Duplicate titles are ignored in favour of the upstream entry.",
+  "papers": [
+    {
+      "title": "VidMap: Exploiting Temporal Structure for Video-Based Structure-from-Motion",
+      "venue": "ECCV 2026",
+      "year": 2026,
+      "section": "SLAM",
+      "links": {
+        "paper": "https://arxiv.org/abs/2607.27194",
+        "code": "https://github.com/cvg/vidmap"
+      },
+      "arxiv_id": "2607.27194"
+    }
+  ]
+}

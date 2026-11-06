@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "_comment": "Add more awesome-list sources here. Only sources with enabled=true are read; the first enabled source is the primary catalogue.",
+  "sources": [
+    {
+      "id": "all-3r-slam",
+      "name": "3D-Vision-World/All-3R-SLAM-in-this-Repo",
+      "repo": "3D-Vision-World/All-3R-SLAM-in-this-Repo",
+      "branch": "main",
+      "readme_url": "https://raw.githubusercontent.com/3D-Vision-World/All-3R-SLAM-in-this-Repo/main/README.md",
+      "enabled": true
+    }
+  ]
+}

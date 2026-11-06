@@ -1,0 +1,12 @@
+{
+  "etag": "\"886c5aadb03fa786651d32e36ad7470200ac04be920562114d3006ae4509e64d\"",
+  "last_modified": null,
+  "source_id": "all-3r-slam",
+  "sha256": "4166fdaffdbf4605626d565fac1deb986197281ec41109c0892ab54158d0006a",
+  "fetched_at": "2026-11-06T05:33:41Z",
+  "commit": {
+    "sha": "b4934d85d127",
+    "date": "2026-11-05T11:42:14Z",
+    "message": "Added  Scale Anchoring via Implicit Semantics and Sequence-Consistent Loop Closure for VGGT-Based SLAM from arXiv 2026"
+  }
+}
