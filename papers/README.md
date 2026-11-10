@@ -4,7 +4,7 @@
 
 > 自动抓取并解析自 [3D-Vision-World/All-3R-SLAM-in-this-Repo](https://github.com/3D-Vision-World/All-3R-SLAM-in-this-Repo)，人工补充条目单独标记。
 
-**159 篇** · **6 个分类** · 最近同步：2026-11-06 05:33 UTC
+**162 篇** · **6 个分类** · 最近同步：2026-11-10 12:44 UTC
 
 ## 分类
 
@@ -12,7 +12,7 @@
 |---|---:|---|
 | Survey Paper | 2 | [survey](survey.md) |
 | 3D Geometric Foundation Models (3R) | 67 | [3r](3r.md) |
-| SLAM | 82 | [slam](slam.md) |
+| SLAM | 85 | [slam](slam.md) |
 | Calibration | 1 | [calibration](calibration.md) |
 | Loop Closure Detection & Place Recognition | 4 | [loop-closure](loop-closure.md) |
 | Downstream Tasks | 3 | [downstream](downstream.md) |
@@ -21,18 +21,6 @@
 
 ## 最近新增
 
-- [Advances in Feed-Forward 3D Reconstruction and View Synthesis: A Survey](https://arxiv.org/pdf/2507.14501) — *arXiv 2025* · Survey Paper
-- [Feed-Forward 3D Scene Modeling: A Problem-Driven Perspective](https://arxiv.org/pdf/2604.14025) — *arXiv 2026* · Survey Paper
-- [DUSt3R: Geometric 3D Vision Made Easy](https://openaccess.thecvf.com/content/CVPR2024/papers/Wang_DUSt3R_Geometric_3D_Vision_Made_Easy_CVPR_2024_paper.pdf) — *CVPR 2024* · 3D Geometric Foundation Models (3R)
-- [Monst3r: A simple approach for estimating geometry in the presence of motion](https://arxiv.org/pdf/2410.03825) — *ICLR 2025* · 3D Geometric Foundation Models (3R)
-- [LoRA3D: Low-Rank Self-Calibration of 3D Geometric Foundation Models](https://arxiv.org/pdf/2412.07746) — *ICLR 2025* · 3D Geometric Foundation Models (3R)
-- [(CUT3R) Continuous 3D Perception Model with Persistent State](https://arxiv.org/pdf/2501.12387) — *CVPR 2025* · 3D Geometric Foundation Models (3R)
-- [Reloc3r: Large-Scale Training of Relative Camera Pose Regression for Generalizable, Fast, and Accurate Visual Localization](https://arxiv.org/pdf/2412.08376) — *CVPR 2025* · 3D Geometric Foundation Models (3R)
-- [DAS3R: Dynamics-Aware Gaussian Splatting for Static Scene Reconstruction](https://arxiv.org/pdf/2412.19584) — *arXiv 2024* · 3D Geometric Foundation Models (3R)
-- [MASt3R-SfM: a Fully-Integrated Solution for Unconstrained Structure-from-Motion](https://arxiv.org/pdf/2409.19152) — *3DV 2025* · 3D Geometric Foundation Models (3R)
-- [Splatt3R: Zero-shot Gaussian Splatting from Uncalibrated Image Pairs](https://arxiv.org/pdf/2408.13912) — *arXiv 2024* · 3D Geometric Foundation Models (3R)
-- [SAB3R: Semantic-Augmented Backbone in 3D Reconstruction](https://tianx-ia.github.io/Semantic_Augmented_3D_Foundation_Models.pdf) — *arXiv 2024* · 3D Geometric Foundation Models (3R)
-- [No Pose, No Problem: Surprisingly Simple 3D Gaussian Splats from Sparse Unposed Images](https://arxiv.org/pdf/2410.24207) — *ICLR 2025* · 3D Geometric Foundation Models (3R)
-- [Doppelgangers++: Improved Visual Disambiguation with Geometric 3D Features](https://arxiv.org/pdf/2412.05826) — *CVPR 2025* · 3D Geometric Foundation Models (3R)
-- [(Spann3R) 3D Reconstruction with Spatial Memory](https://arxiv.org/pdf/2408.16061) — *3DV 2025* · 3D Geometric Foundation Models (3R)
-- [Fast3R: Towards 3D Reconstruction of 1000+ Images in One Forward Pass](https://arxiv.org/pdf/2501.13928) — *CVPR 2025* · 3D Geometric Foundation Models (3R)
+- [V3DSAM: Semantic-Geometric Loop Verification and Geometry-Anchored Persistent Instance Mapping for Feed-Forward Dense SLAM](https://arxiv.org/pdf/2611.12452) — *arXiv 2026* · SLAM
+- [DASH-SLAM: Calibration-Free Metric Monocular SLAM via Depth Scale Propagation](https://arxiv.org/pdf/2611.10239) — *arXiv 2026* · SLAM
+- [Map2SLAM: From Streaming Map Prediction to Real-Time SLAM](https://arxiv.org/pdf/2611.11169) — *arXiv, 2026* · SLAM

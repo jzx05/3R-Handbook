@@ -20,9 +20,9 @@
 ## 数据快照
 
 <!-- AUTO:STATS:BEGIN -->
-> **159** 篇论文 · **6** 个分类 · 人工补充 **1** 篇 · 最近同步 **2026-11-06 05:33 UTC**
+> **162** 篇论文 · **6** 个分类 · 人工补充 **1** 篇 · 最近同步 **2026-11-10 12:44 UTC**
 >
-> 数据源：[3D-Vision-World/All-3R-SLAM-in-this-Repo](https://github.com/3D-Vision-World/All-3R-SLAM-in-this-Repo)@[b4934d85d127](https://github.com/3D-Vision-World/All-3R-SLAM-in-this-Repo/commit/b4934d85d127) · 2024 年 6 篇 · 2025 年 53 篇 · 2026 年 100 篇
+> 数据源：[3D-Vision-World/All-3R-SLAM-in-this-Repo](https://github.com/3D-Vision-World/All-3R-SLAM-in-this-Repo)@[eb186272c063](https://github.com/3D-Vision-World/All-3R-SLAM-in-this-Repo/commit/eb186272c063) · 2024 年 6 篇 · 2025 年 53 篇 · 2026 年 103 篇
 <!-- AUTO:STATS:END -->
 
 ## 导航
@@ -47,7 +47,7 @@
 |---|---:|---|
 | Survey Paper | 2 | [survey](papers/survey.md) |
 | 3D Geometric Foundation Models (3R) | 67 | [3r](papers/3r.md) |
-| SLAM | 82 | [slam](papers/slam.md) |
+| SLAM | 85 | [slam](papers/slam.md) |
 | Calibration | 1 | [calibration](papers/calibration.md) |
 | Loop Closure Detection & Place Recognition | 4 | [loop-closure](papers/loop-closure.md) |
 | Downstream Tasks | 3 | [downstream](papers/downstream.md) |
@@ -57,14 +57,9 @@
 ## 最近新增
 
 <!-- AUTO:RECENT:BEGIN -->
-- [Advances in Feed-Forward 3D Reconstruction and View Synthesis: A Survey](https://arxiv.org/pdf/2507.14501) — *arXiv 2025* · Survey Paper
-- [Feed-Forward 3D Scene Modeling: A Problem-Driven Perspective](https://arxiv.org/pdf/2604.14025) — *arXiv 2026* · Survey Paper
-- [DUSt3R: Geometric 3D Vision Made Easy](https://openaccess.thecvf.com/content/CVPR2024/papers/Wang_DUSt3R_Geometric_3D_Vision_Made_Easy_CVPR_2024_paper.pdf) — *CVPR 2024* · 3D Geometric Foundation Models (3R)
-- [Monst3r: A simple approach for estimating geometry in the presence of motion](https://arxiv.org/pdf/2410.03825) — *ICLR 2025* · 3D Geometric Foundation Models (3R)
-- [LoRA3D: Low-Rank Self-Calibration of 3D Geometric Foundation Models](https://arxiv.org/pdf/2412.07746) — *ICLR 2025* · 3D Geometric Foundation Models (3R)
-- [(CUT3R) Continuous 3D Perception Model with Persistent State](https://arxiv.org/pdf/2501.12387) — *CVPR 2025* · 3D Geometric Foundation Models (3R)
-- [Reloc3r: Large-Scale Training of Relative Camera Pose Regression for Generalizable, Fast, and Accurate Visual Localization](https://arxiv.org/pdf/2412.08376) — *CVPR 2025* · 3D Geometric Foundation Models (3R)
-- [DAS3R: Dynamics-Aware Gaussian Splatting for Static Scene Reconstruction](https://arxiv.org/pdf/2412.19584) — *arXiv 2024* · 3D Geometric Foundation Models (3R)
+- [V3DSAM: Semantic-Geometric Loop Verification and Geometry-Anchored Persistent Instance Mapping for Feed-Forward Dense SLAM](https://arxiv.org/pdf/2611.12452) — *arXiv 2026* · SLAM
+- [DASH-SLAM: Calibration-Free Metric Monocular SLAM via Depth Scale Propagation](https://arxiv.org/pdf/2611.10239) — *arXiv 2026* · SLAM
+- [Map2SLAM: From Streaming Map Prediction to Real-Time SLAM](https://arxiv.org/pdf/2611.11169) — *arXiv, 2026* · SLAM
 <!-- AUTO:RECENT:END -->
 
 ## 自动化是怎么工作的

@@ -4,7 +4,7 @@
 
 > 3R 先验进入在线定位与建图：MASt3R-SLAM、VGGT-SLAM、SLAM3R 等。
 
-**82 篇** · 数据来源：[3D-Vision-World/All-3R-SLAM-in-this-Repo](https://github.com/3D-Vision-World/All-3R-SLAM-in-this-Repo) · 本页自动生成，最后同步见仓库首页。
+**85 篇** · 数据来源：[3D-Vision-World/All-3R-SLAM-in-this-Repo](https://github.com/3D-Vision-World/All-3R-SLAM-in-this-Repo) · 本页自动生成，最后同步见仓库首页。
 
 | # | 论文 | 会议/年份 | 年份 | 资源 |
 |---:|---|---|---:|---|
@@ -18,77 +18,80 @@
 | 8 | [Anchor3R: Streaming 3D Reconstruction with Transient Anchors for Long-Horizon Visual Mapping](https://arxiv.org/pdf/2606.05035) | arXiv, 2026 | 2026 | [PDF](https://arxiv.org/pdf/2606.05035) |
 | 9 | [CLoSeR: Closing the Loop for Long-Context Streaming Reconstruction](https://arxiv.org/pdf/2610.01927) | NeurIPS 2026 | 2026 | [Code](https://github.com/MoyangLi00/CLoSeR.git) |
 | 10 | [CoMo3R-SLAM: Collaborative Monocular Dense SLAM with Learned 3D Reconstruction Priors for Outdoor Multi-Agent Systems](https://arxiv.org/pdf/2605.30488) | arXiv, 2026 | 2026 | [Project](https://como3r-slam.github.io/) |
-| 11 | [DAVIO: Dense Monocular–Inertial SLAM with Feed-Forward Initialization and Pose-Conditioned Mapping](https://arxiv.org/pdf/2609.27702) | arXiv, 2026 | 2026 | [Code](https://github.com/be2rlab/DAVIO) · [Project](https://be2rlab.github.io/DAVIO/) |
-| 12 | [Dense Monocular SLAM in Real-Time With Structured Gaussian Representation](https://ieeexplore.ieee.org/document/11052667) | RAL, 2026 | 2026 | [PDF](https://ieeexplore.ieee.org/document/11052667) |
-| 13 | [Dynamic Visual SLAM using a General 3D Prior](https://arxiv.org/pdf/2512.06868) | CVPR, 2026 | 2026 | [Code](https://github.com/PRBonn/Pi3MOS-SLAM) |
-| 14 | [EC3R-SLAM: Efficient and Consistent Monocular Dense SLAM with Feed-Forward 3D Reconstruction](https://arxiv.org/pdf/2510.02080v1) | ICRA, 2026 | 2026 | [Code](https://github.com/h0xg/ec3r-slam) · [Project](https://h0xg.github.io/ec3r/) |
-| 15 | [Efficient Feature-Free Initialization for Monocular Visual-Inertial Systems Using a Feed-Forward 3D Model](https://arxiv.org/pdf/2605.17327) | RSS, 2026 | 2026 | [Code](https://github.com/Yuantai-Z/FF-VIO-Init) |
-| 16 | [F2SLAM: Turning Feed-Forward Geometry into Persistent Factors for SLAM](https://arxiv.org/pdf/2610.05207) | arXiv 2026 | 2026 | [PDF](https://arxiv.org/pdf/2610.05207) |
-| 17 | [FFVO: A Feedforward Pose Decoder for Long-Horizon Visual Odometry](https://arxiv.org/pdf/2609.13733v1) | arXiv, 2026 | 2026 | [PDF](https://arxiv.org/pdf/2609.13733v1) |
-| 18 | [Flash-Mono: Feed-Forward Accelerated Gaussian Splatting Monocular SLAM](https://arxiv.org/pdf/2604.03092) | ICLR, 2026 | 2026 | [Project](https://victkk.github.io/flash-mono/) |
-| 19 | [FoundationSLAM: Unleashing the Power of Depth Foundation Models for End-to-End Dense Visual SLAM](https://arxiv.org/abs/2512.25008) | AAAI, 2026 | 2026 | [PDF](https://arxiv.org/abs/2512.25008) |
-| 20 | [FoundationVIO: Enforcing Metric Scale in Feed-forward Visual-Inertial Odometry](https://arxiv.org/pdf/2610.14951) | arXiv 2026 | 2026 | [Code](https://github.com/ori-drs/FoundationVIO) |
-| 21 | [Functional-SLAM: Interaction-Aware Mapping with Online Functional Scene Graphs](https://arxiv.org/pdf/2609.07497) | CoRL, 2026 | 2026 | [Code](https://github.com/Hbelief1998/Functional-SLAM-CoRL_2026) |
-| 22 | [GeoGS-SLAM: Online Monocular Reconstruction Using Gaussian Splatting with Geometric Priors](https://arxiv.org/pdf/2607.11184) | ICRA, 2026 | 2026 | [Project](https://rlgao.github.io/geogs_slam/) |
-| 23 | [GRF-Recon: Global Ray-Field Optimization for Long-Sequence Feed-forward Reconstruction](https://arxiv.org/pdf/2609.20012) | arXiv, 2026 | 2026 | [PDF](https://arxiv.org/pdf/2609.20012) |
-| 24 | [GRS-SLAM3R: Real-Time Dense SLAM with Gated Recurrent State](https://arxiv.org/pdf/2509.23737) | ICRA, 2026 | 2026 | [PDF](https://arxiv.org/pdf/2509.23737) |
-| 25 | [HyVGGT-VO: Tightly Coupled Hybrid Dense Visual Odometry with Feed-Forward Models](https://arxiv.org/pdf/2604.02107) | RAL, 2026 | 2026 | [Code](https://github.com/Geneta2580/HyVGGT-VO) · [Project](https://geneta2580.github.io/HyVGGT-VO.io/) |
-| 26 | [IRIS-SLAM: Unified Geo-Instance Representations for Robust Semantic Localization and Mapping](https://arxiv.org/pdf/2602.18709) | arXiv 2026 | 2026 | [PDF](https://arxiv.org/pdf/2602.18709) |
-| 27 | [Keep It CALM: Toward Calibration-Free Kilometer-Level SLAM with Visual Geometry Foundation Models via an Assistant Eye](https://arxiv.org/pdf/2604.14795) | arXiv, 2026 | 2026 | [Code](https://github.com/IRMVLab/CALM) |
-| 28 | [Keyframe-Based Feed-Forward Visual Odometry](https://arxiv.org/pdf/2601.16020) | arXiv 2026 | 2026 | [PDF](https://arxiv.org/pdf/2601.16020) |
-| 29 | [LEXI-SG: Monocular 3D Scene Graph Mapping with Room-Guided Feed-Forward Reconstruction](https://arxiv.org/pdf/2605.13741) | arXiv, 2026 | 2026 | [PDF](https://arxiv.org/pdf/2605.13741) |
-| 30 | [LiDAR-VGGT: Cross-Modal Coarse-to-Fine Fusion for Globally Consistent and Metric-Scale Dense Mapping](https://arxiv.org/pdf/2511.01186) | RAL, 2026 | 2026 | [Code](https://github.com/NorwegianSmokedSalmon/LiDAR-VGGT) |
-| 31 | [Look Up and Look Back: Hidden Attention and Latent Orientation in a Frozen Foundation Model for Panoramic SLAM](https://arxiv.org/pdf/2608.00925) | arXiv, 2026 | 2026 | [PDF](https://arxiv.org/pdf/2608.00925) |
-| 32 | [M^3: Dense Matching Meets Multi-View Foundation Models for Monocular Gaussian Splatting SLAM](https://arxiv.org/pdf/2603.16844) | arXiv, 2026 | 2026 | [Code](https://github.com/InternRobotics/M3) · [Project](https://city-super.github.io/M3/) |
-| 33 | [MAGiSt3R: Multi-Agent Feed-forward 3D Reconstruction from Monocular RGB Videos](https://arxiv.org/pdf/2607.15211) | ECCV 2026 | 2026 | [Project](https://zorangong.github.io/magist3r_page/) |
-| 34 | MASTD3R-SLAM: Monocular Adaptive Semantic Tracking and Dynamic Reconstruction SLAM | ICRA, 2026 | 2026 | — |
-| 35 | [MR.ScaleMaster: Scale-Consistent Collaborative Mapping from Crowd-Sourced Monocular Videos](https://arxiv.org/pdf/2604.11372) | arXiv, 2026 | 2026 | [Code](https://github.com/team-aprl/MR.ScaleMaster) |
-| 36 | [NOCTIF3R: Feed-Forward Monocular Real-Time SLAM for Photon-Limited Scenes on Embedded Hardware](https://arxiv.org/pdf/2609.21114) | arXiv, 2026 | 2026 | [PDF](https://arxiv.org/pdf/2609.21114) |
-| 37 | [On-the-Fly3R: Towards Robust Online 3D Reconstruction with Feed-Forward 3R Models for Large-Scale UAV Scenarios](https://arxiv.org/pdf/2609.00923) | arXiv, 2026 | 2026 | [Code](https://github.com/Sh1nZzz/On_) |
-| 38 | [Online3R: Online Learning for Consistent Sequential Reconstruction Based on Geometry Foundation Model](https://arxiv.org/pdf/2604.09480) | CVPR, 2026 | 2026 | [Project](https://shunkaizhou.github.io/online3r-1.0/) |
-| 39 | [Pow3R-SLAM: Real-Time RGB-D SLAM with 3D Reconstruction Priors](https://arxiv.org/pdf/2609.38054) | arXiv 2026 | 2026 | [Code](https://github.com/ChrisKolios/Pow3R-SLAM) · [Project](https://chriskolios.github.io/Pow3R-SLAM/#map-explorer) |
-| 40 | [PRISM-SLAM: Probabilistic Ray-Grounded Inference for Scale-aware Metric SLAM](https://arxiv.org/pdf/2605.19257) | arXiv, 2026 | 2026 | [Project](https://prismslam-cmd.github.io/prismslam_pr/) |
-| 41 | [PROFusion: Robust and Accurate Dense Reconstruction via Camera Pose Regression and Optimization](https://arxiv.org/pdf/2509.24236) | ICRA, 2026 | 2026 | [Code](https://github.com/siyandong/PROFusion) |
-| 42 | [RADIO-ViPE: Online Tightly Coupled Multi-Modal Fusion for Open-Vocabulary Semantic SLAM in Dynamic Environments](https://arxiv.org/pdf/2604.26067) | arXiv, 2026 | 2026 | [Code](https://github.com/be2rlab/RADIO-ViPE) · [Project](https://be2rlab.github.io/radio_vipe/) |
-| 43 | [Robust and Efficient Monocular 3D Gaussian SLAM for Kilometer-Scale Outdoor Scenes](https://link.springer.com/chapter/10.1007/978-3-032-37467-7_10) | ECCV, 2026 | 2026 | [Code](https://github.com/3DAgentWorld/KiloGS-SLAM) · [Project](https://3dagentworld.github.io/KiloGS-SLAM/) |
-| 44 | [RoSe-SLAM: Robust Semantic-Aware Gaussian Splatting SLAM from Dynamic Monocular Videos](https://arxiv.org/pdf/2608.29003) | IROS, 2026 | 2026 | [PDF](https://arxiv.org/pdf/2608.29003) |
-| 45 | [Scale Anchoring via Implicit Semantics and Sequence-Consistent Loop Closure for VGGT-Based SLAM](https://arxiv.org/pdf/2611.06308) | arXiv 2026 | 2026 | [Code](https://github.com/ziyijin81-afk/scale-anchor-slam) |
-| 46 | [ScaRF-SLAM: Scale-Consistent Reconstruction with Feed-Forward Models and Classical Visual SLAM](https://arxiv.org/pdf/2606.00307) | RAL, 2026 | 2026 | [Code](https://github.com/ori-drs/ScaRF-SLAM) |
-| 47 | [SLAMFormer-∞: Infinite SLAM Transformer for Unbounded Frontend and Backend Processing](https://arxiv.org/pdf/2608.03429) | arXiv, 2026 | 2026 | [Project](https://tsinghua-mars-lab.github.io/SLAMFormer-Infinity/) |
-| 48 | [StreamRig: Exploiting Intra-Rig Geometry for Streaming Multi-Camera Odometry](https://arxiv.org/pdf/2609.40244) | arXiv, 2026 | 2026 | [Code](https://github.com/WeiYuFei0217/StreamRig) · [Project](https://weiyufei0217.github.io/StreamRig/) |
-| 49 | [SURE-Map: Self-Correcting Streaming Geometric Foundation Models](https://arxiv.org/pdf/2609.15795v1) | arXiv, 2026 | 2026 | [Code](https://github.com/RCL-Robotics/SURE-map) · [Project](https://mingkai-liu.github.io/projects/sure-map/) |
-| 50 | [TALO: Pushing 3D Vision Foundation Models Towards Globally Consistent Online Reconstruction](https://github.com/Xian-Bei/TALO) | CVPR, 2026 | 2026 | [Code](https://github.com/Xian-Bei/TALO) |
-| 51 | TopoMA: Topology-Guided Multi-Agent Dense RGB 3D Reconstruction via Distributed Inference | CVPR, 2026 | 2026 | — |
-| 52 | [UniGS-SLAM: Monocular Gaussian SLAM with Enhanced Geometry and Open-Vocabulary Semantics](https://arxiv.org/pdf/2611.02051) | arXiv 2026 | 2026 | [Project](https://3dagentworld.github.io/UniGS-SLAM/) |
-| 53 | [UniSim-SLAM: Feed-Forward SLAM with Unified Sim(3) Optimization](https://arxiv.org/pdf/2608.01706) | ECCV, 2026 | 2026 | [Project](https://vision3d-lab.github.io/unisim-slam/) |
-| 54 | [VGGT-Align: Bridging Local Reconstruction and Global Consistency for Long-Sequence 3D Reconstruction](https://arxiv.org/pdf/2608.15260) | ACM MM, 2026 | 2026 | [Code](https://github.com/WZ-CS/VGGT-Align) |
-| 55 | [VGGT-based online 3D semantic SLAM for indoor scene understanding and navigation](https://arxiv.org/pdf/2602.15899) | arXiv 2026 | 2026 | [PDF](https://arxiv.org/pdf/2602.15899) |
-| 56 | [VGGT-Geo: Probabilistic Geometric Fusion of Visual Geometry Grounded Transformer Priors for Robust Dense Indoor SLAM](https://www.mdpi.com/2220-9964/15/2/85) | ISPRS International Journal of Geo-Information 2026 | 2026 | [PDF](https://www.mdpi.com/2220-9964/15/2/85) |
-| 57 | [VGGT-GS SLAM: Uncalibrated Monocular Gaussian Splatting SLAM with Feed-Forward Priors](https://arxiv.org/pdf/2609.19628) | arXiv, 2026 | 2026 | [PDF](https://arxiv.org/pdf/2609.19628) |
-| 58 | [VGGT-Motion: Motion-Aware Calibration-Free Monocular SLAM for Long-Range Consistency](https://arxiv.org/pdf/2602.05508) | arXiv 2026 | 2026 | [PDF](https://arxiv.org/pdf/2602.05508) |
-| 59 | [VGGT-SLAM 2.0: Real time Dense Feed-forward Scene Reconstruction](https://arxiv.org/pdf/2601.19887) | RSS 2026 | 2026 | [PDF](https://arxiv.org/pdf/2601.19887) |
-| 60 | [VGGT-SLAM++](https://arxiv.org/pdf/2604.068307) | arXiv, 2026 | 2026 | [PDF](https://arxiv.org/pdf/2604.068307) |
-| 61 | [VidMap: Exploiting Temporal Structure for Video-Based Structure-from-Motion](https://arxiv.org/abs/2607.27194) | ECCV 2026 | 2026 | [Code](https://github.com/cvg/vidmap) |
-| 62 | [ViSTA-SLAM: Visual SLAM with Symmetric Two-view Association](https://arxiv.org/pdf/2509.01584) | 3DV, 2026 | 2026 | [Code](https://github.com/zhangganlin/vista-slam) |
-| 63 | [VOIM: Training-Free Open-Vocabulary 3D Instance Mapping for RGB-D and Monocular SLAM](https://arxiv.org/pdf/2609.00775) | arXiv, 2026 | 2026 | [PDF](https://arxiv.org/pdf/2609.00775) |
-| 64 | [World SLAM Model: Joint World Modeling for SLAM and Navigation](https://arxiv.org/pdf/2609.32626) | arXiv, 2026 | 2026 | [Code](https://github.com/Tsinghua-MARS-Lab/WorldSLAMModel) · [Project](https://tsinghua-mars-lab.github.io/WorldSLAMModel/) |
-| 65 | [3D Foundation Model-Based Loop Closing for Decentralized Collaborative SLAM](https://ieeexplore.ieee.org/document/11159173) | RAL, 2025 | 2025 | [PDF](https://ieeexplore.ieee.org/document/11159173) |
-| 66 | [ARTDECO: Towards Efficient and High-Fidelity On-the-Fly 3D Reconstruction with Structured Scene Representation](https://arxiv.org/pdf/2510.08551) | arXiv, 2025 | 2025 | [Code](https://github.com/InternRobotics/ARTDECO) · [Project](https://city-super.github.io/artdeco/) |
-| 67 | [Building temporally coherent 3D maps with VGGT for memory-efficient Semantic SLAM](https://arxiv.org/pdf/2511.16282) | arXiv, 2025 | 2025 | [PDF](https://arxiv.org/pdf/2511.16282) |
-| 68 | [Hier-SLAM++: Neuro-symbolic semantic slam with a hierarchically categorical Gaussian splatting](https://arxiv.org/pdf/2502.14931) | arXiv 2025 | 2025 | [PDF](https://arxiv.org/pdf/2502.14931) |
-| 69 | [KM-ViPE: Online Tightly Coupled Vision-Language-Geometry Fusion for Open-Vocabulary Semantic SLAM](https://arxiv.org/pdf/2512.01889) | arXiv, 2025 | 2025 | [Code](https://github.com/be2rlab/km-vipe) |
-| 70 | [MASt3R-Fusion: Integrating Feed-Forward Visual Model with IMU, GNSS for High-Functionality SLAM](https://arxiv.org/pdf/2509.20757) | arXiv, 2025 | 2025 | [Code](https://github.com/GREAT-WHU/MASt3R-Fusion) |
-| 71 | [MASt3R-GS: Bridging 3D Reconstruction Priors with Gaussian Splatting for Real-Time Dense SLAM](https://robogen-iros.github.io/accepted/12_MASt3R_GS_Bridging_3D_Recon.pdf) | IROSw, 2025 | 2025 | [PDF](https://robogen-iros.github.io/accepted/12_MASt3R_GS_Bridging_3D_Recon.pdf) |
-| 72 | [MASt3R-SLAM: Real-Time Dense SLAM with 3D Reconstruction Priors](https://arxiv.org/pdf/2412.12392) | CVPR 2025 | 2025 | [Code](https://github.com/rmurai0610/MASt3R-SLAM) · [Project](https://edexheim.github.io/mast3r-slam/) |
-| 73 | [MegaSaM: Accurate, Fast, and Robust Structure and Motion from Casual Dynamic Videos](https://arxiv.org/pdf/2412.04463) | CVPR 2025 | 2025 | [Code](https://github.com/mega-sam/mega-sam) · [Project](https://mega-sam.github.io/) |
-| 74 | [OpenMonoGS-SLAM: Monocular Gaussian Splatting SLAM with Open-set Semantics](https://arxiv.org/pdf/2512.08625) | arXiv, 2025 | 2025 | [PDF](https://arxiv.org/pdf/2512.08625) |
-| 75 | [Outdoor Monocular SLAM with Global Scale-Consistent 3D Gaussian Pointmaps](https://arxiv.org/pdf/2507.03737) | ICCV 2025 | 2025 | [Code](https://github.com/3DAgentWorld/S3PO-GS) · [Project](https://3dagentworld.github.io/S3PO-GS/) |
-| 76 | [Pseudo Depth Meets Gaussian: A Feed-forward RGB SLAM Baseline](https://arxiv.org/pdf/2508.04597) | IROS, 2025 | 2025 | [Code](https://github.com/wangyr22/DepthGS) |
-| 77 | [SING3R-SLAM: Submap-based Indoor Monocular Gaussian SLAM with 3D Reconstruction Prior](https://arxiv.org/pdf/2511.17207) | arXiv, 2025 | 2025 | [PDF](https://arxiv.org/pdf/2511.17207) |
-| 78 | [SLAM-Former: Putting SLAM into One Transformer](https://arxiv.org/pdf/2509.16909) | arXiv 2025 | 2025 | [Code](https://github.com/Tsinghua-MARS-Lab/SLAM-Former) · [Project](https://tsinghua-mars-lab.github.io/SLAM-Former/) |
-| 79 | [SLAM3R: Real-Time Dense Scene Reconstruction from Monocular RGB Videos](https://arxiv.org/pdf/2412.09401) | CVPR 2025 | 2025 | [Code](https://github.com/PKU-VCL-3DV/SLAM3R) |
-| 80 | [VGGT-Long: Chunk it, Loop it, Align it – Pushing VGGT’s Limits on Kilometer-scale Long RGB Sequences](https://arxiv.org/pdf/2507.16443) | ICRA, 2025 | 2025 | [Code](https://github.com/DengKaiCQ/VGGT-Long) |
-| 81 | [VGGT-SLAM: Dense RGB SLAM Optimized on the SL(4) Manifold](https://arxiv.org/pdf/2505.12549) | arXiv 2025 | 2025 | [Code](https://github.com/MIT-SPARK/VGGT-SLAM) |
-| 82 | [Visual Odometry with Transformers](https://arxiv.org/pdf/2510.03348) | arXiv 2025 | 2025 | [Code](https://github.com/VladimirYugay/VoT) · [Project](https://vladimiryugay.github.io/vot/index.html) |
+| 11 | [DASH-SLAM: Calibration-Free Metric Monocular SLAM via Depth Scale Propagation](https://arxiv.org/pdf/2611.10239) | arXiv 2026 | 2026 | [PDF](https://arxiv.org/pdf/2611.10239) |
+| 12 | [DAVIO: Dense Monocular–Inertial SLAM with Feed-Forward Initialization and Pose-Conditioned Mapping](https://arxiv.org/pdf/2609.27702) | arXiv, 2026 | 2026 | [Code](https://github.com/be2rlab/DAVIO) · [Project](https://be2rlab.github.io/DAVIO/) |
+| 13 | [Dense Monocular SLAM in Real-Time With Structured Gaussian Representation](https://ieeexplore.ieee.org/document/11052667) | RAL, 2026 | 2026 | [PDF](https://ieeexplore.ieee.org/document/11052667) |
+| 14 | [Dynamic Visual SLAM using a General 3D Prior](https://arxiv.org/pdf/2512.06868) | CVPR, 2026 | 2026 | [Code](https://github.com/PRBonn/Pi3MOS-SLAM) |
+| 15 | [EC3R-SLAM: Efficient and Consistent Monocular Dense SLAM with Feed-Forward 3D Reconstruction](https://arxiv.org/pdf/2510.02080v1) | ICRA, 2026 | 2026 | [Code](https://github.com/h0xg/ec3r-slam) · [Project](https://h0xg.github.io/ec3r/) |
+| 16 | [Efficient Feature-Free Initialization for Monocular Visual-Inertial Systems Using a Feed-Forward 3D Model](https://arxiv.org/pdf/2605.17327) | RSS, 2026 | 2026 | [Code](https://github.com/Yuantai-Z/FF-VIO-Init) |
+| 17 | [F2SLAM: Turning Feed-Forward Geometry into Persistent Factors for SLAM](https://arxiv.org/pdf/2610.05207) | arXiv 2026 | 2026 | [PDF](https://arxiv.org/pdf/2610.05207) |
+| 18 | [FFVO: A Feedforward Pose Decoder for Long-Horizon Visual Odometry](https://arxiv.org/pdf/2609.13733v1) | arXiv, 2026 | 2026 | [PDF](https://arxiv.org/pdf/2609.13733v1) |
+| 19 | [Flash-Mono: Feed-Forward Accelerated Gaussian Splatting Monocular SLAM](https://arxiv.org/pdf/2604.03092) | ICLR, 2026 | 2026 | [Project](https://victkk.github.io/flash-mono/) |
+| 20 | [FoundationSLAM: Unleashing the Power of Depth Foundation Models for End-to-End Dense Visual SLAM](https://arxiv.org/abs/2512.25008) | AAAI, 2026 | 2026 | [PDF](https://arxiv.org/abs/2512.25008) |
+| 21 | [FoundationVIO: Enforcing Metric Scale in Feed-forward Visual-Inertial Odometry](https://arxiv.org/pdf/2610.14951) | arXiv 2026 | 2026 | [Code](https://github.com/ori-drs/FoundationVIO) |
+| 22 | [Functional-SLAM: Interaction-Aware Mapping with Online Functional Scene Graphs](https://arxiv.org/pdf/2609.07497) | CoRL, 2026 | 2026 | [Code](https://github.com/Hbelief1998/Functional-SLAM-CoRL_2026) |
+| 23 | [GeoGS-SLAM: Online Monocular Reconstruction Using Gaussian Splatting with Geometric Priors](https://arxiv.org/pdf/2607.11184) | ICRA, 2026 | 2026 | [Project](https://rlgao.github.io/geogs_slam/) |
+| 24 | [GRF-Recon: Global Ray-Field Optimization for Long-Sequence Feed-forward Reconstruction](https://arxiv.org/pdf/2609.20012) | arXiv, 2026 | 2026 | [PDF](https://arxiv.org/pdf/2609.20012) |
+| 25 | [GRS-SLAM3R: Real-Time Dense SLAM with Gated Recurrent State](https://arxiv.org/pdf/2509.23737) | ICRA, 2026 | 2026 | [PDF](https://arxiv.org/pdf/2509.23737) |
+| 26 | [HyVGGT-VO: Tightly Coupled Hybrid Dense Visual Odometry with Feed-Forward Models](https://arxiv.org/pdf/2604.02107) | RAL, 2026 | 2026 | [Code](https://github.com/Geneta2580/HyVGGT-VO) · [Project](https://geneta2580.github.io/HyVGGT-VO.io/) |
+| 27 | [IRIS-SLAM: Unified Geo-Instance Representations for Robust Semantic Localization and Mapping](https://arxiv.org/pdf/2602.18709) | arXiv 2026 | 2026 | [PDF](https://arxiv.org/pdf/2602.18709) |
+| 28 | [Keep It CALM: Toward Calibration-Free Kilometer-Level SLAM with Visual Geometry Foundation Models via an Assistant Eye](https://arxiv.org/pdf/2604.14795) | arXiv, 2026 | 2026 | [Code](https://github.com/IRMVLab/CALM) |
+| 29 | [Keyframe-Based Feed-Forward Visual Odometry](https://arxiv.org/pdf/2601.16020) | arXiv 2026 | 2026 | [PDF](https://arxiv.org/pdf/2601.16020) |
+| 30 | [LEXI-SG: Monocular 3D Scene Graph Mapping with Room-Guided Feed-Forward Reconstruction](https://arxiv.org/pdf/2605.13741) | arXiv, 2026 | 2026 | [PDF](https://arxiv.org/pdf/2605.13741) |
+| 31 | [LiDAR-VGGT: Cross-Modal Coarse-to-Fine Fusion for Globally Consistent and Metric-Scale Dense Mapping](https://arxiv.org/pdf/2511.01186) | RAL, 2026 | 2026 | [Code](https://github.com/NorwegianSmokedSalmon/LiDAR-VGGT) |
+| 32 | [Look Up and Look Back: Hidden Attention and Latent Orientation in a Frozen Foundation Model for Panoramic SLAM](https://arxiv.org/pdf/2608.00925) | arXiv, 2026 | 2026 | [PDF](https://arxiv.org/pdf/2608.00925) |
+| 33 | [M^3: Dense Matching Meets Multi-View Foundation Models for Monocular Gaussian Splatting SLAM](https://arxiv.org/pdf/2603.16844) | arXiv, 2026 | 2026 | [Code](https://github.com/InternRobotics/M3) · [Project](https://city-super.github.io/M3/) |
+| 34 | [MAGiSt3R: Multi-Agent Feed-forward 3D Reconstruction from Monocular RGB Videos](https://arxiv.org/pdf/2607.15211) | ECCV 2026 | 2026 | [Project](https://zorangong.github.io/magist3r_page/) |
+| 35 | [Map2SLAM: From Streaming Map Prediction to Real-Time SLAM](https://arxiv.org/pdf/2611.11169) | arXiv, 2026 | 2026 | [Code](https://github.com/robbyant-research/Map2SLAM) · [Project](https://robbyant-research.github.io/Map2SLAM/) |
+| 36 | MASTD3R-SLAM: Monocular Adaptive Semantic Tracking and Dynamic Reconstruction SLAM | ICRA, 2026 | 2026 | — |
+| 37 | [MR.ScaleMaster: Scale-Consistent Collaborative Mapping from Crowd-Sourced Monocular Videos](https://arxiv.org/pdf/2604.11372) | arXiv, 2026 | 2026 | [Code](https://github.com/team-aprl/MR.ScaleMaster) |
+| 38 | [NOCTIF3R: Feed-Forward Monocular Real-Time SLAM for Photon-Limited Scenes on Embedded Hardware](https://arxiv.org/pdf/2609.21114) | arXiv, 2026 | 2026 | [PDF](https://arxiv.org/pdf/2609.21114) |
+| 39 | [On-the-Fly3R: Towards Robust Online 3D Reconstruction with Feed-Forward 3R Models for Large-Scale UAV Scenarios](https://arxiv.org/pdf/2609.00923) | arXiv, 2026 | 2026 | [Code](https://github.com/Sh1nZzz/On_) |
+| 40 | [Online3R: Online Learning for Consistent Sequential Reconstruction Based on Geometry Foundation Model](https://arxiv.org/pdf/2604.09480) | CVPR, 2026 | 2026 | [Project](https://shunkaizhou.github.io/online3r-1.0/) |
+| 41 | [Pow3R-SLAM: Real-Time RGB-D SLAM with 3D Reconstruction Priors](https://arxiv.org/pdf/2609.38054) | arXiv 2026 | 2026 | [Code](https://github.com/ChrisKolios/Pow3R-SLAM) · [Project](https://chriskolios.github.io/Pow3R-SLAM/#map-explorer) |
+| 42 | [PRISM-SLAM: Probabilistic Ray-Grounded Inference for Scale-aware Metric SLAM](https://arxiv.org/pdf/2605.19257) | arXiv, 2026 | 2026 | [Project](https://prismslam-cmd.github.io/prismslam_pr/) |
+| 43 | [PROFusion: Robust and Accurate Dense Reconstruction via Camera Pose Regression and Optimization](https://arxiv.org/pdf/2509.24236) | ICRA, 2026 | 2026 | [Code](https://github.com/siyandong/PROFusion) |
+| 44 | [RADIO-ViPE: Online Tightly Coupled Multi-Modal Fusion for Open-Vocabulary Semantic SLAM in Dynamic Environments](https://arxiv.org/pdf/2604.26067) | arXiv, 2026 | 2026 | [Code](https://github.com/be2rlab/RADIO-ViPE) · [Project](https://be2rlab.github.io/radio_vipe/) |
+| 45 | [Robust and Efficient Monocular 3D Gaussian SLAM for Kilometer-Scale Outdoor Scenes](https://link.springer.com/chapter/10.1007/978-3-032-37467-7_10) | ECCV, 2026 | 2026 | [Code](https://github.com/3DAgentWorld/KiloGS-SLAM) · [Project](https://3dagentworld.github.io/KiloGS-SLAM/) |
+| 46 | [RoSe-SLAM: Robust Semantic-Aware Gaussian Splatting SLAM from Dynamic Monocular Videos](https://arxiv.org/pdf/2608.29003) | IROS, 2026 | 2026 | [PDF](https://arxiv.org/pdf/2608.29003) |
+| 47 | [Scale Anchoring via Implicit Semantics and Sequence-Consistent Loop Closure for VGGT-Based SLAM](https://arxiv.org/pdf/2611.06308) | arXiv 2026 | 2026 | [Code](https://github.com/ziyijin81-afk/scale-anchor-slam) |
+| 48 | [ScaRF-SLAM: Scale-Consistent Reconstruction with Feed-Forward Models and Classical Visual SLAM](https://arxiv.org/pdf/2606.00307) | RAL, 2026 | 2026 | [Code](https://github.com/ori-drs/ScaRF-SLAM) |
+| 49 | [SLAMFormer-∞: Infinite SLAM Transformer for Unbounded Frontend and Backend Processing](https://arxiv.org/pdf/2608.03429) | arXiv, 2026 | 2026 | [Project](https://tsinghua-mars-lab.github.io/SLAMFormer-Infinity/) |
+| 50 | [StreamRig: Exploiting Intra-Rig Geometry for Streaming Multi-Camera Odometry](https://arxiv.org/pdf/2609.40244) | arXiv, 2026 | 2026 | [Code](https://github.com/WeiYuFei0217/StreamRig) · [Project](https://weiyufei0217.github.io/StreamRig/) |
+| 51 | [SURE-Map: Self-Correcting Streaming Geometric Foundation Models](https://arxiv.org/pdf/2609.15795v1) | arXiv, 2026 | 2026 | [Code](https://github.com/RCL-Robotics/SURE-map) · [Project](https://mingkai-liu.github.io/projects/sure-map/) |
+| 52 | [TALO: Pushing 3D Vision Foundation Models Towards Globally Consistent Online Reconstruction](https://github.com/Xian-Bei/TALO) | CVPR, 2026 | 2026 | [Code](https://github.com/Xian-Bei/TALO) |
+| 53 | TopoMA: Topology-Guided Multi-Agent Dense RGB 3D Reconstruction via Distributed Inference | CVPR, 2026 | 2026 | — |
+| 54 | [UniGS-SLAM: Monocular Gaussian SLAM with Enhanced Geometry and Open-Vocabulary Semantics](https://arxiv.org/pdf/2611.02051) | arXiv 2026 | 2026 | [Project](https://3dagentworld.github.io/UniGS-SLAM/) |
+| 55 | [UniSim-SLAM: Feed-Forward SLAM with Unified Sim(3) Optimization](https://arxiv.org/pdf/2608.01706) | ECCV, 2026 | 2026 | [Project](https://vision3d-lab.github.io/unisim-slam/) |
+| 56 | [V3DSAM: Semantic-Geometric Loop Verification and Geometry-Anchored Persistent Instance Mapping for Feed-Forward Dense SLAM](https://arxiv.org/pdf/2611.12452) | arXiv 2026 | 2026 | [PDF](https://arxiv.org/pdf/2611.12452) |
+| 57 | [VGGT-Align: Bridging Local Reconstruction and Global Consistency for Long-Sequence 3D Reconstruction](https://arxiv.org/pdf/2608.15260) | ACM MM, 2026 | 2026 | [Code](https://github.com/WZ-CS/VGGT-Align) |
+| 58 | [VGGT-based online 3D semantic SLAM for indoor scene understanding and navigation](https://arxiv.org/pdf/2602.15899) | arXiv 2026 | 2026 | [PDF](https://arxiv.org/pdf/2602.15899) |
+| 59 | [VGGT-Geo: Probabilistic Geometric Fusion of Visual Geometry Grounded Transformer Priors for Robust Dense Indoor SLAM](https://www.mdpi.com/2220-9964/15/2/85) | ISPRS International Journal of Geo-Information 2026 | 2026 | [PDF](https://www.mdpi.com/2220-9964/15/2/85) |
+| 60 | [VGGT-GS SLAM: Uncalibrated Monocular Gaussian Splatting SLAM with Feed-Forward Priors](https://arxiv.org/pdf/2609.19628) | arXiv, 2026 | 2026 | [PDF](https://arxiv.org/pdf/2609.19628) |
+| 61 | [VGGT-Motion: Motion-Aware Calibration-Free Monocular SLAM for Long-Range Consistency](https://arxiv.org/pdf/2602.05508) | arXiv 2026 | 2026 | [PDF](https://arxiv.org/pdf/2602.05508) |
+| 62 | [VGGT-SLAM 2.0: Real time Dense Feed-forward Scene Reconstruction](https://arxiv.org/pdf/2601.19887) | RSS 2026 | 2026 | [PDF](https://arxiv.org/pdf/2601.19887) |
+| 63 | [VGGT-SLAM++](https://arxiv.org/pdf/2604.068307) | arXiv, 2026 | 2026 | [PDF](https://arxiv.org/pdf/2604.068307) |
+| 64 | [VidMap: Exploiting Temporal Structure for Video-Based Structure-from-Motion](https://arxiv.org/abs/2607.27194) | ECCV 2026 | 2026 | [Code](https://github.com/cvg/vidmap) |
+| 65 | [ViSTA-SLAM: Visual SLAM with Symmetric Two-view Association](https://arxiv.org/pdf/2509.01584) | 3DV, 2026 | 2026 | [Code](https://github.com/zhangganlin/vista-slam) |
+| 66 | [VOIM: Training-Free Open-Vocabulary 3D Instance Mapping for RGB-D and Monocular SLAM](https://arxiv.org/pdf/2609.00775) | arXiv, 2026 | 2026 | [PDF](https://arxiv.org/pdf/2609.00775) |
+| 67 | [World SLAM Model: Joint World Modeling for SLAM and Navigation](https://arxiv.org/pdf/2609.32626) | arXiv, 2026 | 2026 | [Code](https://github.com/Tsinghua-MARS-Lab/WorldSLAMModel) · [Project](https://tsinghua-mars-lab.github.io/WorldSLAMModel/) |
+| 68 | [3D Foundation Model-Based Loop Closing for Decentralized Collaborative SLAM](https://ieeexplore.ieee.org/document/11159173) | RAL, 2025 | 2025 | [PDF](https://ieeexplore.ieee.org/document/11159173) |
+| 69 | [ARTDECO: Towards Efficient and High-Fidelity On-the-Fly 3D Reconstruction with Structured Scene Representation](https://arxiv.org/pdf/2510.08551) | arXiv, 2025 | 2025 | [Code](https://github.com/InternRobotics/ARTDECO) · [Project](https://city-super.github.io/artdeco/) |
+| 70 | [Building temporally coherent 3D maps with VGGT for memory-efficient Semantic SLAM](https://arxiv.org/pdf/2511.16282) | arXiv, 2025 | 2025 | [PDF](https://arxiv.org/pdf/2511.16282) |
+| 71 | [Hier-SLAM++: Neuro-symbolic semantic slam with a hierarchically categorical Gaussian splatting](https://arxiv.org/pdf/2502.14931) | arXiv 2025 | 2025 | [PDF](https://arxiv.org/pdf/2502.14931) |
+| 72 | [KM-ViPE: Online Tightly Coupled Vision-Language-Geometry Fusion for Open-Vocabulary Semantic SLAM](https://arxiv.org/pdf/2512.01889) | arXiv, 2025 | 2025 | [Code](https://github.com/be2rlab/km-vipe) |
+| 73 | [MASt3R-Fusion: Integrating Feed-Forward Visual Model with IMU, GNSS for High-Functionality SLAM](https://arxiv.org/pdf/2509.20757) | arXiv, 2025 | 2025 | [Code](https://github.com/GREAT-WHU/MASt3R-Fusion) |
+| 74 | [MASt3R-GS: Bridging 3D Reconstruction Priors with Gaussian Splatting for Real-Time Dense SLAM](https://robogen-iros.github.io/accepted/12_MASt3R_GS_Bridging_3D_Recon.pdf) | IROSw, 2025 | 2025 | [PDF](https://robogen-iros.github.io/accepted/12_MASt3R_GS_Bridging_3D_Recon.pdf) |
+| 75 | [MASt3R-SLAM: Real-Time Dense SLAM with 3D Reconstruction Priors](https://arxiv.org/pdf/2412.12392) | CVPR 2025 | 2025 | [Code](https://github.com/rmurai0610/MASt3R-SLAM) · [Project](https://edexheim.github.io/mast3r-slam/) |
+| 76 | [MegaSaM: Accurate, Fast, and Robust Structure and Motion from Casual Dynamic Videos](https://arxiv.org/pdf/2412.04463) | CVPR 2025 | 2025 | [Code](https://github.com/mega-sam/mega-sam) · [Project](https://mega-sam.github.io/) |
+| 77 | [OpenMonoGS-SLAM: Monocular Gaussian Splatting SLAM with Open-set Semantics](https://arxiv.org/pdf/2512.08625) | arXiv, 2025 | 2025 | [PDF](https://arxiv.org/pdf/2512.08625) |
+| 78 | [Outdoor Monocular SLAM with Global Scale-Consistent 3D Gaussian Pointmaps](https://arxiv.org/pdf/2507.03737) | ICCV 2025 | 2025 | [Code](https://github.com/3DAgentWorld/S3PO-GS) · [Project](https://3dagentworld.github.io/S3PO-GS/) |
+| 79 | [Pseudo Depth Meets Gaussian: A Feed-forward RGB SLAM Baseline](https://arxiv.org/pdf/2508.04597) | IROS, 2025 | 2025 | [Code](https://github.com/wangyr22/DepthGS) |
+| 80 | [SING3R-SLAM: Submap-based Indoor Monocular Gaussian SLAM with 3D Reconstruction Prior](https://arxiv.org/pdf/2511.17207) | arXiv, 2025 | 2025 | [PDF](https://arxiv.org/pdf/2511.17207) |
+| 81 | [SLAM-Former: Putting SLAM into One Transformer](https://arxiv.org/pdf/2509.16909) | arXiv 2025 | 2025 | [Code](https://github.com/Tsinghua-MARS-Lab/SLAM-Former) · [Project](https://tsinghua-mars-lab.github.io/SLAM-Former/) |
+| 82 | [SLAM3R: Real-Time Dense Scene Reconstruction from Monocular RGB Videos](https://arxiv.org/pdf/2412.09401) | CVPR 2025 | 2025 | [Code](https://github.com/PKU-VCL-3DV/SLAM3R) |
+| 83 | [VGGT-Long: Chunk it, Loop it, Align it – Pushing VGGT’s Limits on Kilometer-scale Long RGB Sequences](https://arxiv.org/pdf/2507.16443) | ICRA, 2025 | 2025 | [Code](https://github.com/DengKaiCQ/VGGT-Long) |
+| 84 | [VGGT-SLAM: Dense RGB SLAM Optimized on the SL(4) Manifold](https://arxiv.org/pdf/2505.12549) | arXiv 2025 | 2025 | [Code](https://github.com/MIT-SPARK/VGGT-SLAM) |
+| 85 | [Visual Odometry with Transformers](https://arxiv.org/pdf/2510.03348) | arXiv 2025 | 2025 | [Code](https://github.com/VladimirYugay/VoT) · [Project](https://vladimiryugay.github.io/vot/index.html) |
 
 > 条目由 [scripts/sync_upstream.py](../scripts/sync_upstream.py) 从上游 README 解析生成；标题、会议与链接以原论文/项目页为准。

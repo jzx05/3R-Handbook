@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-10",
+  "runs": [
+    {
+      "sync_time": "2026-11-10T12:44:03Z",
+      "mode": "incremental",
+      "created": [
+        "p-aec415cad0",
+        "p-0be8f109f3",
+        "p-37884f56ea"
+      ],
+      "updated": [],
+      "removed": [],
+      "counts": {
+        "total": 162,
+        "active": 162,
+        "removed": 0,
+        "manual": 1,
+        "by_year": {
+          "2024": 6,
+          "2025": 53,
+          "2026": 103
+        },
+        "by_section": {
+          "Survey Paper": 2,
+          "3D Geometric Foundation Models (3R)": 67,
+          "SLAM": 85,
+          "Calibration": 1,
+          "Loop Closure Detection & Place Recognition": 4,
+          "Downstream Tasks": 3
+        }
+      },
+      "source": {
+        "id": "all-3r-slam",
+        "repo": "3D-Vision-World/All-3R-SLAM-in-this-Repo",
+        "branch": "main",
+        "readme_url": "https://raw.githubusercontent.com/3D-Vision-World/All-3R-SLAM-in-this-Repo/main/README.md",
+        "readme_sha256": "dbe2c9db45ff597eb0d847412b99e98ea19921d58e6faae51ed7f3beb519eb28",
+        "snapshot": "data/upstream/README.md",
+        "commit": {
+          "sha": "eb186272c063",
+          "date": "2026-11-10T12:07:55Z",
+          "message": "Added Map2SLAM from arXiv 2026"
+        },
+        "mode": "network"
+      }
+    }
+  ]
+}
