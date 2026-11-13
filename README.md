@@ -20,9 +20,9 @@
 ## 数据快照
 
 <!-- AUTO:STATS:BEGIN -->
-> **162** 篇论文 · **6** 个分类 · 人工补充 **1** 篇 · 最近同步 **2026-11-10 12:44 UTC**
+> **163** 篇论文 · **6** 个分类 · 人工补充 **1** 篇 · 最近同步 **2026-11-13 17:49 UTC**
 >
-> 数据源：[3D-Vision-World/All-3R-SLAM-in-this-Repo](https://github.com/3D-Vision-World/All-3R-SLAM-in-this-Repo)@[eb186272c063](https://github.com/3D-Vision-World/All-3R-SLAM-in-this-Repo/commit/eb186272c063) · 2024 年 6 篇 · 2025 年 53 篇 · 2026 年 103 篇
+> 数据源：[3D-Vision-World/All-3R-SLAM-in-this-Repo](https://github.com/3D-Vision-World/All-3R-SLAM-in-this-Repo)@[afadc022916f](https://github.com/3D-Vision-World/All-3R-SLAM-in-this-Repo/commit/afadc022916f) · 2024 年 6 篇 · 2025 年 53 篇 · 2026 年 104 篇
 <!-- AUTO:STATS:END -->
 
 ## 导航
@@ -46,7 +46,7 @@
 | 分类 | 数量 | 入口 |
 |---|---:|---|
 | Survey Paper | 2 | [survey](papers/survey.md) |
-| 3D Geometric Foundation Models (3R) | 67 | [3r](papers/3r.md) |
+| 3D Geometric Foundation Models (3R) | 68 | [3r](papers/3r.md) |
 | SLAM | 85 | [slam](papers/slam.md) |
 | Calibration | 1 | [calibration](papers/calibration.md) |
 | Loop Closure Detection & Place Recognition | 4 | [loop-closure](papers/loop-closure.md) |
@@ -57,9 +57,7 @@
 ## 最近新增
 
 <!-- AUTO:RECENT:BEGIN -->
-- [V3DSAM: Semantic-Geometric Loop Verification and Geometry-Anchored Persistent Instance Mapping for Feed-Forward Dense SLAM](https://arxiv.org/pdf/2611.12452) — *arXiv 2026* · SLAM
-- [DASH-SLAM: Calibration-Free Metric Monocular SLAM via Depth Scale Propagation](https://arxiv.org/pdf/2611.10239) — *arXiv 2026* · SLAM
-- [Map2SLAM: From Streaming Map Prediction to Real-Time SLAM](https://arxiv.org/pdf/2611.11169) — *arXiv, 2026* · SLAM
+- [Kosmo-GFM: A Production-Ready Geometry Foundation Model](https://arxiv.org/pdf/2611.16840) — *arXiv 2026* · 3D Geometric Foundation Models (3R)
 <!-- AUTO:RECENT:END -->
 
 ## 自动化是怎么工作的

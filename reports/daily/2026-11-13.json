@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-13",
+  "runs": [
+    {
+      "sync_time": "2026-11-13T17:49:07Z",
+      "mode": "incremental",
+      "created": [
+        "p-35d1123f0a"
+      ],
+      "updated": [],
+      "removed": [],
+      "counts": {
+        "total": 163,
+        "active": 163,
+        "removed": 0,
+        "manual": 1,
+        "by_year": {
+          "2024": 6,
+          "2025": 53,
+          "2026": 104
+        },
+        "by_section": {
+          "Survey Paper": 2,
+          "3D Geometric Foundation Models (3R)": 68,
+          "SLAM": 85,
+          "Calibration": 1,
+          "Loop Closure Detection & Place Recognition": 4,
+          "Downstream Tasks": 3
+        }
+      },
+      "source": {
+        "id": "all-3r-slam",
+        "repo": "3D-Vision-World/All-3R-SLAM-in-this-Repo",
+        "branch": "main",
+        "readme_url": "https://raw.githubusercontent.com/3D-Vision-World/All-3R-SLAM-in-this-Repo/main/README.md",
+        "readme_sha256": "387533aef0a514efd15a2d4cfa4aaa15140ec0b063dcf36b0079d18bcc9430a6",
+        "snapshot": "data/upstream/README.md",
+        "commit": {
+          "sha": "afadc022916f",
+          "date": "2026-11-13T11:16:17Z",
+          "message": "Added Kosmo-GFM from arXiv 2026"
+        },
+        "mode": "network"
+      }
+    }
+  ]
+}

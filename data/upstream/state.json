@@ -1,12 +1,12 @@
 {
-  "etag": "\"4dd88a160662b991c8d24abc481642caa8f61c95ff871e3fe065d3ce4c93b400\"",
+  "etag": "\"ae4a9ceadd423419a09583950b181c7f0a67432472ea42d1bec5fe17a6201ca3\"",
   "last_modified": null,
   "source_id": "all-3r-slam",
-  "sha256": "dbe2c9db45ff597eb0d847412b99e98ea19921d58e6faae51ed7f3beb519eb28",
-  "fetched_at": "2026-11-10T12:44:03Z",
+  "sha256": "387533aef0a514efd15a2d4cfa4aaa15140ec0b063dcf36b0079d18bcc9430a6",
+  "fetched_at": "2026-11-13T17:49:07Z",
   "commit": {
-    "sha": "eb186272c063",
-    "date": "2026-11-10T12:07:55Z",
-    "message": "Added Map2SLAM from arXiv 2026"
+    "sha": "afadc022916f",
+    "date": "2026-11-13T11:16:17Z",
+    "message": "Added Kosmo-GFM from arXiv 2026"
   }
 }
