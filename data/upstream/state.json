@@ -1,12 +1,12 @@
 {
-  "etag": "\"ae4a9ceadd423419a09583950b181c7f0a67432472ea42d1bec5fe17a6201ca3\"",
+  "etag": "\"215beade1f70ff62a1bc73535e94ece7045e4015eb429a8750262b60b9d474d1\"",
   "last_modified": null,
   "source_id": "all-3r-slam",
-  "sha256": "387533aef0a514efd15a2d4cfa4aaa15140ec0b063dcf36b0079d18bcc9430a6",
-  "fetched_at": "2026-11-13T17:49:07Z",
+  "sha256": "7a7171488982e2178a70479925dcb21552b982b30a89f3a14a6ab12d4e755bfd",
+  "fetched_at": "2026-11-23T14:49:01Z",
   "commit": {
-    "sha": "afadc022916f",
-    "date": "2026-11-13T11:16:17Z",
-    "message": "Added Kosmo-GFM from arXiv 2026"
+    "sha": "797d93856525",
+    "date": "2026-11-23T14:39:52Z",
+    "message": "Added Flex-VO‘s paper link"
   }
 }

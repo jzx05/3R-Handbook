@@ -4,7 +4,7 @@
 
 > 自动抓取并解析自 [3D-Vision-World/All-3R-SLAM-in-this-Repo](https://github.com/3D-Vision-World/All-3R-SLAM-in-this-Repo)，人工补充条目单独标记。
 
-**163 篇** · **6 个分类** · 最近同步：2026-11-13 17:49 UTC
+**164 篇** · **6 个分类** · 最近同步：2026-11-23 14:49 UTC
 
 ## 分类
 
@@ -12,7 +12,7 @@
 |---|---:|---|
 | Survey Paper | 2 | [survey](survey.md) |
 | 3D Geometric Foundation Models (3R) | 68 | [3r](3r.md) |
-| SLAM | 85 | [slam](slam.md) |
+| SLAM | 86 | [slam](slam.md) |
 | Calibration | 1 | [calibration](calibration.md) |
 | Loop Closure Detection & Place Recognition | 4 | [loop-closure](loop-closure.md) |
 | Downstream Tasks | 3 | [downstream](downstream.md) |
@@ -21,4 +21,4 @@
 
 ## 最近新增
 
-- [Kosmo-GFM: A Production-Ready Geometry Foundation Model](https://arxiv.org/pdf/2611.16840) — *arXiv 2026* · 3D Geometric Foundation Models (3R)
+- [Flex-VO: Robust Visual Odometry for Flexible Auxiliary-Camera Setups](https://ieeexplore.ieee.org/abstract/document/11802920) — *RAL, 2026* · SLAM

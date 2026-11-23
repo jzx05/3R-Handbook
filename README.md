@@ -20,9 +20,9 @@
 ## 数据快照
 
 <!-- AUTO:STATS:BEGIN -->
-> **163** 篇论文 · **6** 个分类 · 人工补充 **1** 篇 · 最近同步 **2026-11-13 17:49 UTC**
+> **164** 篇论文 · **6** 个分类 · 人工补充 **1** 篇 · 最近同步 **2026-11-23 14:49 UTC**
 >
-> 数据源：[3D-Vision-World/All-3R-SLAM-in-this-Repo](https://github.com/3D-Vision-World/All-3R-SLAM-in-this-Repo)@[afadc022916f](https://github.com/3D-Vision-World/All-3R-SLAM-in-this-Repo/commit/afadc022916f) · 2024 年 6 篇 · 2025 年 53 篇 · 2026 年 104 篇
+> 数据源：[3D-Vision-World/All-3R-SLAM-in-this-Repo](https://github.com/3D-Vision-World/All-3R-SLAM-in-this-Repo)@[797d93856525](https://github.com/3D-Vision-World/All-3R-SLAM-in-this-Repo/commit/797d93856525) · 2024 年 6 篇 · 2025 年 53 篇 · 2026 年 105 篇
 <!-- AUTO:STATS:END -->
 
 ## 导航
@@ -47,7 +47,7 @@
 |---|---:|---|
 | Survey Paper | 2 | [survey](papers/survey.md) |
 | 3D Geometric Foundation Models (3R) | 68 | [3r](papers/3r.md) |
-| SLAM | 85 | [slam](papers/slam.md) |
+| SLAM | 86 | [slam](papers/slam.md) |
 | Calibration | 1 | [calibration](papers/calibration.md) |
 | Loop Closure Detection & Place Recognition | 4 | [loop-closure](papers/loop-closure.md) |
 | Downstream Tasks | 3 | [downstream](papers/downstream.md) |
@@ -57,7 +57,7 @@
 ## 最近新增
 
 <!-- AUTO:RECENT:BEGIN -->
-- [Kosmo-GFM: A Production-Ready Geometry Foundation Model](https://arxiv.org/pdf/2611.16840) — *arXiv 2026* · 3D Geometric Foundation Models (3R)
+- [Flex-VO: Robust Visual Odometry for Flexible Auxiliary-Camera Setups](https://ieeexplore.ieee.org/abstract/document/11802920) — *RAL, 2026* · SLAM
 <!-- AUTO:RECENT:END -->
 
 ## 自动化是怎么工作的
