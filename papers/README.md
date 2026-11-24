@@ -4,15 +4,15 @@
 
 > 自动抓取并解析自 [3D-Vision-World/All-3R-SLAM-in-this-Repo](https://github.com/3D-Vision-World/All-3R-SLAM-in-this-Repo)，人工补充条目单独标记。
 
-**164 篇** · **6 个分类** · 最近同步：2026-11-23 14:49 UTC
+**167 篇** · **6 个分类** · 最近同步：2026-11-24 14:56 UTC
 
 ## 分类
 
 | 分类 | 数量 | 入口 |
 |---|---:|---|
 | Survey Paper | 2 | [survey](survey.md) |
-| 3D Geometric Foundation Models (3R) | 68 | [3r](3r.md) |
-| SLAM | 86 | [slam](slam.md) |
+| 3D Geometric Foundation Models (3R) | 69 | [3r](3r.md) |
+| SLAM | 88 | [slam](slam.md) |
 | Calibration | 1 | [calibration](calibration.md) |
 | Loop Closure Detection & Place Recognition | 4 | [loop-closure](loop-closure.md) |
 | Downstream Tasks | 3 | [downstream](downstream.md) |
@@ -21,4 +21,6 @@
 
 ## 最近新增
 
-- [Flex-VO: Robust Visual Odometry for Flexible Auxiliary-Camera Setups](https://ieeexplore.ieee.org/abstract/document/11802920) — *RAL, 2026* · SLAM
+- [SGAR: Feed-Forward 3D Reconstruction via Sparse Geometry-Guided Attention](https://arxiv.org/pdf/2611.26493) — *arXiv 2026* · 3D Geometric Foundation Models (3R)
+- [GravHMR: Coupling SLAM and Human Mesh Recovery in a Shared Gravity Frame](https://arxiv.org/pdf/2611.29614) — *arXiv, 2026* · SLAM
+- [AnyVIO: Feed-Forward Streaming Visual-Inertial Odometry Across Platforms](https://arxiv.org/pdf/2611.26625) — *arXiv, 2026* · SLAM

@@ -1,49 +1,51 @@
 {
-  "date": "2026-11-23",
-  "sync_time": "2026-11-23T14:49:01Z",
+  "date": "2026-11-24",
+  "sync_time": "2026-11-24T14:56:39Z",
   "mode": "incremental",
   "source": {
     "id": "all-3r-slam",
     "repo": "3D-Vision-World/All-3R-SLAM-in-this-Repo",
     "branch": "main",
     "readme_url": "https://raw.githubusercontent.com/3D-Vision-World/All-3R-SLAM-in-this-Repo/main/README.md",
-    "readme_sha256": "7a7171488982e2178a70479925dcb21552b982b30a89f3a14a6ab12d4e755bfd",
+    "readme_sha256": "9637fc8a7957eb0caa7967fd4c393330344d77d50d2b0a1bfa9241bfc0c70804",
     "snapshot": "data/upstream/README.md",
     "commit": {
-      "sha": "797d93856525",
-      "date": "2026-11-23T14:39:52Z",
-      "message": "Added Flex-VO‘s paper link"
+      "sha": "8b0d65be2600",
+      "date": "2026-11-24T09:49:56Z",
+      "message": "Added two papers"
     },
     "mode": "network"
   },
   "created": [
-    "p-b08afcda05"
+    "p-b46a2a2379",
+    "p-9b997ca543",
+    "p-72ddcdd173"
   ],
   "updated": [],
   "removed": [],
   "counts": {
-    "total": 164,
-    "active": 164,
+    "total": 167,
+    "active": 167,
     "removed": 0,
     "manual": 1,
     "by_year": {
       "2024": 6,
       "2025": 53,
-      "2026": 105
+      "2026": 108
     },
     "by_section": {
       "Survey Paper": 2,
-      "3D Geometric Foundation Models (3R)": 68,
-      "SLAM": 86,
+      "3D Geometric Foundation Models (3R)": 69,
+      "SLAM": 88,
       "Calibration": 1,
       "Loop Closure Detection & Place Recognition": 4,
       "Downstream Tasks": 3
     }
   },
   "enrichment": {
-    "enriched": 0,
+    "enriched": 3,
     "pending": 0,
     "failed_batches": 0,
-    "cached_ids": 148
+    "cached_ids": 151
   }
 }

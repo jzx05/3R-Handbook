@@ -1,12 +1,12 @@
 {
-  "etag": "\"215beade1f70ff62a1bc73535e94ece7045e4015eb429a8750262b60b9d474d1\"",
+  "etag": "\"72e74356fddfb628f54e0747c5410de7c9847303908108829c396d5921c4e607\"",
   "last_modified": null,
   "source_id": "all-3r-slam",
-  "sha256": "7a7171488982e2178a70479925dcb21552b982b30a89f3a14a6ab12d4e755bfd",
-  "fetched_at": "2026-11-23T14:49:01Z",
+  "sha256": "9637fc8a7957eb0caa7967fd4c393330344d77d50d2b0a1bfa9241bfc0c70804",
+  "fetched_at": "2026-11-24T14:56:39Z",
   "commit": {
-    "sha": "797d93856525",
-    "date": "2026-11-23T14:39:52Z",
-    "message": "Added Flex-VO‘s paper link"
+    "sha": "8b0d65be2600",
+    "date": "2026-11-24T09:49:56Z",
+    "message": "Added two papers"
   }
 }

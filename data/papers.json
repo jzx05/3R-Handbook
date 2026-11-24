@@ -5,12 +5,12 @@
     "repo": "3D-Vision-World/All-3R-SLAM-in-this-Repo",
     "branch": "main",
     "readme_url": "https://raw.githubusercontent.com/3D-Vision-World/All-3R-SLAM-in-this-Repo/main/README.md",
-    "readme_sha256": "7a7171488982e2178a70479925dcb21552b982b30a89f3a14a6ab12d4e755bfd",
+    "readme_sha256": "9637fc8a7957eb0caa7967fd4c393330344d77d50d2b0a1bfa9241bfc0c70804",
     "snapshot": "data/upstream/README.md",
     "commit": {
-      "sha": "797d93856525",
-      "date": "2026-11-23T14:39:52Z",
-      "message": "Added Flex-VO‘s paper link"
+      "sha": "8b0d65be2600",
+      "date": "2026-11-24T09:49:56Z",
+      "message": "Added two papers"
     },
     "mode": "network"
   },
@@ -25,13 +25,13 @@
       "name": "3D Geometric Foundation Models (3R)",
       "slug": "3r",
       "order": 1,
-      "count": 68
+      "count": 69
     },
     {
       "name": "SLAM",
       "slug": "slam",
       "order": 2,
-      "count": 86
+      "count": 88
     },
     {
       "name": "Calibration",
@@ -53,19 +53,19 @@
     }
   ],
   "counts": {
-    "total": 164,
-    "active": 164,
+    "total": 167,
+    "active": 167,
     "removed": 0,
     "manual": 1,
     "by_year": {
       "2024": 6,
       "2025": 53,
-      "2026": 105
+      "2026": 108
     },
     "by_section": {
       "Survey Paper": 2,
-      "3D Geometric Foundation Models (3R)": 68,
-      "SLAM": 86,
+      "3D Geometric Foundation Models (3R)": 69,
+      "SLAM": 88,
       "Calibration": 1,
       "Loop Closure Detection & Place Recognition": 4,
       "Downstream Tasks": 3
@@ -2482,6 +2482,38 @@
       "enriched_at": "2026-11-13"
     },
     {
+      "id": "p-b46a2a2379",
+      "title": "SGAR: Feed-Forward 3D Reconstruction via Sparse Geometry-Guided Attention",
+      "venue": "arXiv 2026",
+      "year": 2026,
+      "section": "3D Geometric Foundation Models (3R)",
+      "slug": "3r",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2611.26493"
+      },
+      "arxiv_id": "2611.26493",
+      "order": 70,
+      "first_seen": "2026-11-24",
+      "status": "active",
+      "manual": false,
+      "also_in": [],
+      "arxiv_title": "SGAR: Feed-Forward 3D Reconstruction via Sparse Geometry-Guided Attention",
+      "authors": [
+        "Aoxiang Fan",
+        "Maria Pilligua",
+        "Corentin Dumery",
+        "Oliver Heinimann",
+        "Pascal Fua"
+      ],
+      "abstract": "Feed-forward models have been very successful in 3D reconstruction with ad hoc attention designs that relate all view patches densely. However, the cost of this dense global attention grows quadratically with the number of views, preventing the model from applying to larger-scale reconstruction settings. In this paper, we argue that most dense attention computations are unnecessary from a classical structure-from-motion perspective: 3D structures stem from geometrically matching regions in 2D. We bring this principle to learning-based feed-forward reconstruction with our Sparse Geometric Attention Reconstruction (SGAR) method. In SGAR, each patch token attends to only a small set of patch tokens from other views, chosen by a lightweight learned key selection module trained to predict cross-view 3D proximity of tokens. Thus, dense global attention is replaced by much more efficient geometric-similarity-guided sparse attention. SGAR is a general method that can be applied to different feed-forward models by fine-tuning. In our experiments, we show that SGAR is the fastest among both state-of-the-art dense and sparse methods and the most accurate sparse one. It runs up to 12-times faster than dense attention at 1,000 views with stable pose accuracy where existing sparse methods fail, and shows the best performance in reconstructing more complete geometries on the same time budget.",
+      "published": "2026-11-19",
+      "categories": [
+        "cs.CV"
+      ],
+      "enrichment": "ok",
+      "enriched_at": "2026-11-24"
+    },
+    {
       "id": "p-92ce477e2c",
       "title": "Hier-SLAM++: Neuro-symbolic semantic slam with a hierarchically categorical Gaussian splatting",
       "venue": "arXiv 2025",
@@ -2492,7 +2524,7 @@
         "paper": "https://arxiv.org/pdf/2502.14931"
       },
       "arxiv_id": "2502.14931",
-      "order": 70,
+      "order": 71,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -2526,7 +2558,7 @@
         "code": "https://github.com/mega-sam/mega-sam"
       },
       "arxiv_id": "2412.04463",
-      "order": 71,
+      "order": 72,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -2563,7 +2595,7 @@
         "code": "https://github.com/PKU-VCL-3DV/SLAM3R"
       },
       "arxiv_id": "2412.09401",
-      "order": 72,
+      "order": 73,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -2599,7 +2631,7 @@
         "code": "https://github.com/rmurai0610/MASt3R-SLAM"
       },
       "arxiv_id": "2412.12392",
-      "order": 73,
+      "order": 74,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -2631,7 +2663,7 @@
         "code": "https://github.com/MIT-SPARK/VGGT-SLAM"
       },
       "arxiv_id": "2505.12549",
-      "order": 74,
+      "order": 75,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -2663,7 +2695,7 @@
         "code": "https://github.com/3DAgentWorld/S3PO-GS"
       },
       "arxiv_id": "2507.03737",
-      "order": 75,
+      "order": 76,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -2696,7 +2728,7 @@
         "code": "https://github.com/DengKaiCQ/VGGT-Long"
       },
       "arxiv_id": "2507.16443",
-      "order": 76,
+      "order": 77,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -2729,7 +2761,7 @@
         "code": "https://github.com/wangyr22/DepthGS"
       },
       "arxiv_id": "2508.04597",
-      "order": 77,
+      "order": 78,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -2764,7 +2796,7 @@
         "paper": "https://ieeexplore.ieee.org/document/11159173"
       },
       "arxiv_id": "",
-      "order": 78,
+      "order": 79,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -2783,7 +2815,7 @@
         "code": "https://github.com/zhangganlin/vista-slam"
       },
       "arxiv_id": "2509.01584",
-      "order": 79,
+      "order": 80,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -2816,7 +2848,7 @@
         "code": "https://github.com/Tsinghua-MARS-Lab/SLAM-Former"
       },
       "arxiv_id": "2509.16909",
-      "order": 80,
+      "order": 81,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -2853,7 +2885,7 @@
         "code": "https://github.com/GREAT-WHU/MASt3R-Fusion"
       },
       "arxiv_id": "2509.20757",
-      "order": 81,
+      "order": 82,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -2887,7 +2919,7 @@
         "paper": "https://arxiv.org/pdf/2509.23737"
       },
       "arxiv_id": "2509.23737",
-      "order": 82,
+      "order": 83,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -2924,7 +2956,7 @@
         "code": "https://github.com/h0xg/ec3r-slam"
       },
       "arxiv_id": "2510.02080",
-      "order": 83,
+      "order": 84,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -2957,7 +2989,7 @@
         "code": "https://github.com/VladimirYugay/VoT"
       },
       "arxiv_id": "2510.03348",
-      "order": 84,
+      "order": 85,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -2991,7 +3023,7 @@
         "code": "https://github.com/InternRobotics/ARTDECO"
       },
       "arxiv_id": "2510.08551",
-      "order": 85,
+      "order": 86,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -3028,7 +3060,7 @@
         "paper": "https://robogen-iros.github.io/accepted/12_MASt3R_GS_Bridging_3D_Recon.pdf"
       },
       "arxiv_id": "",
-      "order": 86,
+      "order": 87,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -3047,7 +3079,7 @@
         "code": "https://github.com/NorwegianSmokedSalmon/LiDAR-VGGT"
       },
       "arxiv_id": "2511.01186",
-      "order": 87,
+      "order": 88,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -3081,7 +3113,7 @@
         "paper": "https://arxiv.org/pdf/2511.16282"
       },
       "arxiv_id": "2511.16282",
-      "order": 88,
+      "order": 89,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -3113,7 +3145,7 @@
         "paper": "https://arxiv.org/pdf/2511.17207"
       },
       "arxiv_id": "2511.17207",
-      "order": 89,
+      "order": 90,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -3148,7 +3180,7 @@
         "code": "https://github.com/be2rlab/km-vipe"
       },
       "arxiv_id": "2512.01889",
-      "order": 90,
+      "order": 91,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -3186,7 +3218,7 @@
         "code": "https://github.com/PRBonn/Pi3MOS-SLAM"
       },
       "arxiv_id": "2512.06868",
-      "order": 91,
+      "order": 92,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -3219,7 +3251,7 @@
         "paper": "https://arxiv.org/pdf/2512.08625"
       },
       "arxiv_id": "2512.08625",
-      "order": 92,
+      "order": 93,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -3251,7 +3283,7 @@
         "paper": "https://arxiv.org/pdf/2601.16020"
       },
       "arxiv_id": "2601.16020",
-      "order": 93,
+      "order": 94,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -3284,7 +3316,7 @@
         "paper": "https://arxiv.org/pdf/2601.19887"
       },
       "arxiv_id": "2601.19887",
-      "order": 94,
+      "order": 95,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -3314,7 +3346,7 @@
         "paper": "https://arxiv.org/pdf/2602.05508"
       },
       "arxiv_id": "2602.05508",
-      "order": 95,
+      "order": 96,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -3345,7 +3377,7 @@
         "paper": "https://arxiv.org/pdf/2602.15899"
       },
       "arxiv_id": "2602.15899",
-      "order": 96,
+      "order": 97,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -3379,7 +3411,7 @@
         "paper": "https://www.mdpi.com/2220-9964/15/2/85"
       },
       "arxiv_id": "",
-      "order": 97,
+      "order": 98,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -3397,7 +3429,7 @@
         "paper": "https://arxiv.org/pdf/2602.18709"
       },
       "arxiv_id": "2602.18709",
-      "order": 98,
+      "order": 99,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -3435,7 +3467,7 @@
         "website": "https://aimslam.github.io/"
       },
       "arxiv_id": "2603.05097",
-      "order": 99,
+      "order": 100,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -3467,7 +3499,7 @@
         "website": "https://victkk.github.io/flash-mono/"
       },
       "arxiv_id": "2604.03092",
-      "order": 100,
+      "order": 101,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -3502,7 +3534,7 @@
         "code": "https://github.com/Geneta2580/HyVGGT-VO"
       },
       "arxiv_id": "2604.02107",
-      "order": 101,
+      "order": 102,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -3533,7 +3565,7 @@
         "paper": "https://arxiv.org/pdf/2604.068307"
       },
       "arxiv_id": "2604.06830",
-      "order": 102,
+      "order": 103,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -3566,7 +3598,7 @@
         "website": "https://shunkaizhou.github.io/online3r-1.0/"
       },
       "arxiv_id": "2604.09480",
-      "order": 103,
+      "order": 104,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -3600,7 +3632,7 @@
         "website": "https://xinmiaoshawn.github.io/LeanGate/"
       },
       "arxiv_id": "2604.08718",
-      "order": 104,
+      "order": 105,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -3640,7 +3672,7 @@
         "code": "https://github.com/IRMVLab/CALM"
       },
       "arxiv_id": "2604.14795",
-      "order": 105,
+      "order": 106,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -3673,7 +3705,7 @@
         "code": "https://github.com/team-aprl/MR.ScaleMaster"
       },
       "arxiv_id": "2604.11372",
-      "order": 106,
+      "order": 107,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -3704,7 +3736,7 @@
         "code": "https://github.com/be2rlab/RADIO-ViPE"
       },
       "arxiv_id": "2604.26067",
-      "order": 107,
+      "order": 108,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -3735,7 +3767,7 @@
       "slug": "slam",
       "links": {},
       "arxiv_id": "",
-      "order": 108,
+      "order": 109,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -3755,7 +3787,7 @@
         "code": "https://github.com/HengyiWang/amb3r"
       },
       "arxiv_id": "2511.20343",
-      "order": 109,
+      "order": 110,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -3784,7 +3816,7 @@
         "code": "https://github.com/Xian-Bei/TALO"
       },
       "arxiv_id": "",
-      "order": 110,
+      "order": 111,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -3804,7 +3836,7 @@
         "code": "https://github.com/robbyant/lingbot-map"
       },
       "arxiv_id": "2604.14141",
-      "order": 111,
+      "order": 112,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -3841,7 +3873,7 @@
       "slug": "slam",
       "links": {},
       "arxiv_id": "",
-      "order": 112,
+      "order": 113,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -3859,7 +3891,7 @@
         "paper": "https://arxiv.org/pdf/2605.13741"
       },
       "arxiv_id": "2605.13741",
-      "order": 113,
+      "order": 114,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -3894,7 +3926,7 @@
         "code": "https://github.com/InternRobotics/M3"
       },
       "arxiv_id": "2603.16844",
-      "order": 114,
+      "order": 115,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -3932,7 +3964,7 @@
         "code": "https://github.com/Yuantai-Z/FF-VIO-Init"
       },
       "arxiv_id": "2605.17327",
-      "order": 115,
+      "order": 116,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -3970,7 +4002,7 @@
         "website": "https://prismslam-cmd.github.io/prismslam_pr/"
       },
       "arxiv_id": "2605.19257",
-      "order": 116,
+      "order": 117,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -4002,7 +4034,7 @@
         "website": "https://como3r-slam.github.io/"
       },
       "arxiv_id": "2605.30488",
-      "order": 117,
+      "order": 118,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -4037,7 +4069,7 @@
         "code": "https://github.com/ori-drs/ScaRF-SLAM"
       },
       "arxiv_id": "2606.00307",
-      "order": 118,
+      "order": 119,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -4068,7 +4100,7 @@
         "paper": "https://arxiv.org/pdf/2606.05035"
       },
       "arxiv_id": "2606.05035",
-      "order": 119,
+      "order": 120,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -4107,7 +4139,7 @@
         "website": "https://rlgao.github.io/geogs_slam/"
       },
       "arxiv_id": "2607.11184",
-      "order": 120,
+      "order": 121,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -4138,7 +4170,7 @@
         "website": "https://zorangong.github.io/magist3r_page/"
       },
       "arxiv_id": "2607.15211",
-      "order": 121,
+      "order": 122,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -4172,7 +4204,7 @@
         "paper": "https://arxiv.org/pdf/2608.00925"
       },
       "arxiv_id": "2608.00925",
-      "order": 122,
+      "order": 123,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -4207,7 +4239,7 @@
         "website": "https://vision3d-lab.github.io/unisim-slam/"
       },
       "arxiv_id": "2608.01706",
-      "order": 123,
+      "order": 124,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -4239,7 +4271,7 @@
         "website": "https://tsinghua-mars-lab.github.io/SLAMFormer-Infinity/"
       },
       "arxiv_id": "2608.03429",
-      "order": 124,
+      "order": 125,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -4278,7 +4310,7 @@
         "code": "https://github.com/WZ-CS/VGGT-Align"
       },
       "arxiv_id": "2608.15260",
-      "order": 125,
+      "order": 126,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -4311,7 +4343,7 @@
         "code": "https://github.com/Sh1nZzz/On_"
       },
       "arxiv_id": "2609.00923",
-      "order": 126,
+      "order": 127,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -4345,7 +4377,7 @@
         "paper": "https://arxiv.org/pdf/2609.00775"
       },
       "arxiv_id": "2609.00775",
-      "order": 127,
+      "order": 128,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -4380,7 +4412,7 @@
         "paper": "https://arxiv.org/pdf/2608.29003"
       },
       "arxiv_id": "2608.29003",
-      "order": 128,
+      "order": 129,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -4414,7 +4446,7 @@
         "paper": "https://arxiv.org/abs/2512.25008"
       },
       "arxiv_id": "2512.25008",
-      "order": 129,
+      "order": 130,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -4448,7 +4480,7 @@
         "code": "https://github.com/Hbelief1998/Functional-SLAM-CoRL_2026"
       },
       "arxiv_id": "2609.07497",
-      "order": 130,
+      "order": 131,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -4481,7 +4513,7 @@
         "paper": "https://arxiv.org/pdf/2609.13733v1"
       },
       "arxiv_id": "2609.13733",
-      "order": 131,
+      "order": 132,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -4520,7 +4552,7 @@
         "code": "https://github.com/RCL-Robotics/SURE-map"
       },
       "arxiv_id": "2609.15795",
-      "order": 132,
+      "order": 133,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -4550,7 +4582,7 @@
         "paper": "https://arxiv.org/pdf/2609.19628"
       },
       "arxiv_id": "2609.19628",
-      "order": 133,
+      "order": 134,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -4583,7 +4615,7 @@
         "code": "https://github.com/HengyiWang/amb3r-slam"
       },
       "arxiv_id": "2609.19518",
-      "order": 134,
+      "order": 135,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -4613,7 +4645,7 @@
         "paper": "https://arxiv.org/pdf/2609.20012"
       },
       "arxiv_id": "2609.20012",
-      "order": 135,
+      "order": 136,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -4647,7 +4679,7 @@
         "paper": "https://ieeexplore.ieee.org/document/11052667"
       },
       "arxiv_id": "",
-      "order": 136,
+      "order": 137,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -4666,7 +4698,7 @@
         "code": "https://github.com/dtc111111/AWM-3DFM"
       },
       "arxiv_id": "2609.21502",
-      "order": 137,
+      "order": 138,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -4704,7 +4736,7 @@
         "paper": "https://arxiv.org/pdf/2609.21114"
       },
       "arxiv_id": "2609.21114",
-      "order": 138,
+      "order": 139,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -4737,7 +4769,7 @@
         "code": "https://github.com/be2rlab/DAVIO"
       },
       "arxiv_id": "2609.27702",
-      "order": 139,
+      "order": 140,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -4770,7 +4802,7 @@
         "code": "https://github.com/siyandong/PROFusion"
       },
       "arxiv_id": "2509.24236",
-      "order": 140,
+      "order": 141,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -4805,7 +4837,7 @@
         "website": "https://tsinghua-mars-lab.github.io/WorldSLAMModel/"
       },
       "arxiv_id": "2609.32626",
-      "order": 141,
+      "order": 142,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -4845,7 +4877,7 @@
         "website": "https://weiyufei0217.github.io/StreamRig/"
       },
       "arxiv_id": "2609.40244",
-      "order": 142,
+      "order": 143,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -4881,7 +4913,7 @@
         "code": "https://github.com/MoyangLi00/CLoSeR.git"
       },
       "arxiv_id": "2610.01927",
-      "order": 143,
+      "order": 144,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -4916,7 +4948,7 @@
         "website": "https://chriskolios.github.io/Pow3R-SLAM/#map-explorer"
       },
       "arxiv_id": "2609.38054",
-      "order": 144,
+      "order": 145,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -4951,7 +4983,7 @@
         "website": "https://3dagentworld.github.io/KiloGS-SLAM/"
       },
       "arxiv_id": "",
-      "order": 145,
+      "order": 146,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -4969,7 +5001,7 @@
         "paper": "https://arxiv.org/pdf/2610.05207"
       },
       "arxiv_id": "2610.05207",
-      "order": 146,
+      "order": 147,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -5003,7 +5035,7 @@
         "website": "https://yellowon0103.github.io/all-st3r-slam/"
       },
       "arxiv_id": "2610.16143",
-      "order": 147,
+      "order": 148,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -5035,7 +5067,7 @@
         "code": "https://github.com/ori-drs/FoundationVIO"
       },
       "arxiv_id": "2610.14951",
-      "order": 148,
+      "order": 149,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -5067,7 +5099,7 @@
         "website": "https://3dagentworld.github.io/UniGS-SLAM/"
       },
       "arxiv_id": "2611.02051",
-      "order": 149,
+      "order": 150,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -5099,7 +5131,7 @@
         "code": "https://github.com/ziyijin81-afk/scale-anchor-slam"
       },
       "arxiv_id": "2611.06308",
-      "order": 150,
+      "order": 151,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -5132,7 +5164,7 @@
         "paper": "https://arxiv.org/pdf/2611.12452"
       },
       "arxiv_id": "2611.12452",
-      "order": 151,
+      "order": 152,
       "first_seen": "2026-11-10",
       "status": "active",
       "manual": false,
@@ -5167,7 +5199,7 @@
         "paper": "https://arxiv.org/pdf/2611.10239"
       },
       "arxiv_id": "2611.10239",
-      "order": 152,
+      "order": 153,
       "first_seen": "2026-11-10",
       "status": "active",
       "manual": false,
@@ -5199,7 +5231,7 @@
         "website": "https://robbyant-research.github.io/Map2SLAM/"
       },
       "arxiv_id": "2611.11169",
-      "order": 153,
+      "order": 154,
       "first_seen": "2026-11-10",
       "status": "active",
       "manual": false,
@@ -5235,12 +5267,80 @@
         "paper": "https://ieeexplore.ieee.org/abstract/document/11802920"
       },
       "arxiv_id": "",
-      "order": 154,
+      "order": 155,
       "first_seen": "2026-11-23",
       "status": "active",
       "manual": false,
       "also_in": [],
       "enrichment": "no-arxiv"
+    },
+    {
+      "id": "p-9b997ca543",
+      "title": "GravHMR: Coupling SLAM and Human Mesh Recovery in a Shared Gravity Frame",
+      "venue": "arXiv, 2026",
+      "year": 2026,
+      "section": "SLAM",
+      "slug": "slam",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2611.29614",
+        "code": "https://github.com/jhl25-pixel/gravhmr",
+        "website": "https://jhl25-pixel.github.io/gravhmr/"
+      },
+      "arxiv_id": "2611.29614",
+      "order": 156,
+      "first_seen": "2026-11-24",
+      "status": "active",
+      "manual": false,
+      "also_in": [],
+      "arxiv_title": "GravHMR: Coupling SLAM and Human Mesh Recovery in a Shared Gravity Frame",
+      "authors": [
+        "Hanglei Jin",
+        "Chenglu Sun",
+        "Junchen Ge",
+        "Yuchao Wang",
+        "Siqi Chen",
+        "Yuzhi Huang",
+        "Jingyan Jiang",
+        "Zhi Wang"
+      ],
+      "abstract": "Recovering globally consistent 3D human motion from monocular videos remains challenging under dynamic camera motion. Although SLAM and human mesh recovery (HMR) provide complementary camera and body estimates, directly combining them often leads to inconsistent orientations and accumulated trajectory drift. We present GravHMR, a training-free, plug-and-play framework that couples SLAM and HMR through a shared gravity-aligned reference. By allowing gravity to be estimated independently of the HMR backbone, GravHMR accommodates world-grounded HMR models with or without explicit gravity-view representations. Specifically, Yaw-Aware Orientation Optimization (YAOO) resolves heading inconsistencies by correcting body and velocity orientations about the shared gravity axis. Conditioned on these corrected orientations, Gravity-Aware Trajectory Optimization (GATO) anchors root trajectories in the metric SLAM world by jointly leveraging 2D reprojection, the metric scale implicit in the human body, and the body's own motion. On EMDB-2, GravHMR achieves state-of-the-art performance with 154.0 mm W-MPJPE100 using ViPE and 189.8 mm using masked DROID-SLAM, outperforming TRAM (222.4 mm) under the same masked DROID-SLAM camera estimates. It further reduces W-MPJPE100 by 44.3% over GVHMR (276.5 mm) and by 20.0% over GVHMR + HTD-Refine (192.4 mm) with the same HMR backbone.",
+      "published": "2026-11-22",
+      "categories": [
+        "cs.CV"
+      ],
+      "enrichment": "ok",
+      "enriched_at": "2026-11-24"
+    },
+    {
+      "id": "p-72ddcdd173",
+      "title": "AnyVIO: Feed-Forward Streaming Visual-Inertial Odometry Across Platforms",
+      "venue": "arXiv, 2026",
+      "year": 2026,
+      "section": "SLAM",
+      "slug": "slam",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2611.26625"
+      },
+      "arxiv_id": "2611.26625",
+      "order": 157,
+      "first_seen": "2026-11-24",
+      "status": "active",
+      "manual": false,
+      "also_in": [],
+      "arxiv_title": "AnyVIO: Feed-Forward Streaming Visual-Inertial Odometry Across Platforms",
+      "authors": [
+        "Omoruyi Atekha",
+        "Marcus Greiff",
+        "Ray Zhang",
+        "Luca Carlone"
+      ],
+      "abstract": "Geometric foundation models (GFMs) estimate camera mo- tion and scene structure from images without requiring ex- pert parameter tuning, but either lack metric scale or rely on learned priors to infer scale, which is unobservable from monocular images alone. Inertial sensing offers a way to observe metric scale, but existing methods add inertial in- formation through a filter or factor graph, which reintro- duces bespoke parameter tuning and optimization costs that can grow with the trajectory. To bridge this gap, we present AnyVIO, a real-time, feed-forward streaming model for monocular visual-inertial odometry (VIO), which combines a streaming GFM with an inertial foundation model (IFM). Both the GFM and IFM predict the metric motion between consecutive frames, and a lightweight learned fusion head quantifies the reliability of each estimate and blends them in a single forward pass. Across nine datasets recorded from cars, legged and ground robots, and handheld and head- mounted devices, AnyVIO reduces the metric position error of its visual model by 36% while publishing each pose esti- mate 70 ms after an image is received. We further deploy AnyVIO onboard two real vehicles at up to 140 km/h, where it remains accurate in poor lighting and heavy dust.",
+      "published": "2026-11-19",
+      "categories": [
+        "eess.IV"
+      ],
+      "enrichment": "ok",
+      "enriched_at": "2026-11-24"
     },
     {
       "id": "p-0fed75b9c7",
@@ -5253,7 +5353,7 @@
         "paper": "https://arxiv.org/pdf/2509.08813"
       },
       "arxiv_id": "2509.08813",
-      "order": 155,
+      "order": 158,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -5283,7 +5383,7 @@
         "paper": "https://arxiv.org/pdf/2511.05404"
       },
       "arxiv_id": "2511.05404",
-      "order": 156,
+      "order": 159,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -5315,7 +5415,7 @@
         "paper": "https://arxiv.org/pdf/2602.19735"
       },
       "arxiv_id": "2602.19735",
-      "order": 157,
+      "order": 160,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -5351,7 +5451,7 @@
         "code": "https://github.com/dtc111111/UniPR-3D"
       },
       "arxiv_id": "2512.21078",
-      "order": 158,
+      "order": 161,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -5387,7 +5487,7 @@
         "code": "https://github.com/dtc111111/Reloc-VGGT"
       },
       "arxiv_id": "2512.21883",
-      "order": 159,
+      "order": 162,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -5426,7 +5526,7 @@
         "code": "https://github.com/manycore-research/SpatialLM"
       },
       "arxiv_id": "2506.07491",
-      "order": 160,
+      "order": 163,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -5463,7 +5563,7 @@
         "code": "https://github.com/IMNearth/Spatial-X"
       },
       "arxiv_id": "2603.26837",
-      "order": 161,
+      "order": 164,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -5498,7 +5598,7 @@
         "paper": "https://ieeexplore.ieee.org/abstract/document/11449734/"
       },
       "arxiv_id": "",
-      "order": 162,
+      "order": 165,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
