@@ -5,12 +5,12 @@
     "repo": "3D-Vision-World/All-3R-SLAM-in-this-Repo",
     "branch": "main",
     "readme_url": "https://raw.githubusercontent.com/3D-Vision-World/All-3R-SLAM-in-this-Repo/main/README.md",
-    "readme_sha256": "9637fc8a7957eb0caa7967fd4c393330344d77d50d2b0a1bfa9241bfc0c70804",
+    "readme_sha256": "a6746963076b28aa043ae6ce44840a8fe7476f7b92bba13772359e42e1e421bc",
     "snapshot": "data/upstream/README.md",
     "commit": {
-      "sha": "8b0d65be2600",
-      "date": "2026-11-24T09:49:56Z",
-      "message": "Added two papers"
+      "sha": "266cd50646d0",
+      "date": "2026-11-25T01:50:47Z",
+      "message": "Merge pull request #13 from Minagami-Yuki/patch-10"
     },
     "mode": "network"
   },
@@ -31,7 +31,7 @@
       "name": "SLAM",
       "slug": "slam",
       "order": 2,
-      "count": 88
+      "count": 89
     },
     {
       "name": "Calibration",
@@ -53,19 +53,19 @@
     }
   ],
   "counts": {
-    "total": 167,
-    "active": 167,
+    "total": 168,
+    "active": 168,
     "removed": 0,
     "manual": 1,
     "by_year": {
       "2024": 6,
       "2025": 53,
-      "2026": 108
+      "2026": 109
     },
     "by_section": {
       "Survey Paper": 2,
       "3D Geometric Foundation Models (3R)": 69,
-      "SLAM": 88,
+      "SLAM": 89,
       "Calibration": 1,
       "Loop Closure Detection & Place Recognition": 4,
       "Downstream Tasks": 3
@@ -2497,7 +2497,6 @@
       "status": "active",
       "manual": false,
       "also_in": [],
-      "arxiv_title": "SGAR: Feed-Forward 3D Reconstruction via Sparse Geometry-Guided Attention",
       "authors": [
         "Aoxiang Fan",
         "Maria Pilligua",
@@ -2507,6 +2506,7 @@
       ],
       "abstract": "Feed-forward models have been very successful in 3D reconstruction with ad hoc attention designs that relate all view patches densely. However, the cost of this dense global attention grows quadratically with the number of views, preventing the model from applying to larger-scale reconstruction settings. In this paper, we argue that most dense attention computations are unnecessary from a classical structure-from-motion perspective: 3D structures stem from geometrically matching regions in 2D. We bring this principle to learning-based feed-forward reconstruction with our Sparse Geometric Attention Reconstruction (SGAR) method. In SGAR, each patch token attends to only a small set of patch tokens from other views, chosen by a lightweight learned key selection module trained to predict cross-view 3D proximity of tokens. Thus, dense global attention is replaced by much more efficient geometric-similarity-guided sparse attention. SGAR is a general method that can be applied to different feed-forward models by fine-tuning. In our experiments, we show that SGAR is the fastest among both state-of-the-art dense and sparse methods and the most accurate sparse one. It runs up to 12-times faster than dense attention at 1,000 views with stable pose accuracy where existing sparse methods fail, and shows the best performance in reconstructing more complete geometries on the same time budget.",
       "published": "2026-11-19",
+      "arxiv_title": "SGAR: Feed-Forward 3D Reconstruction via Sparse Geometry-Guided Attention",
       "categories": [
         "cs.CV"
       ],
@@ -5292,7 +5292,6 @@
       "status": "active",
       "manual": false,
       "also_in": [],
-      "arxiv_title": "GravHMR: Coupling SLAM and Human Mesh Recovery in a Shared Gravity Frame",
       "authors": [
         "Hanglei Jin",
         "Chenglu Sun",
@@ -5305,6 +5304,7 @@
       ],
       "abstract": "Recovering globally consistent 3D human motion from monocular videos remains challenging under dynamic camera motion. Although SLAM and human mesh recovery (HMR) provide complementary camera and body estimates, directly combining them often leads to inconsistent orientations and accumulated trajectory drift. We present GravHMR, a training-free, plug-and-play framework that couples SLAM and HMR through a shared gravity-aligned reference. By allowing gravity to be estimated independently of the HMR backbone, GravHMR accommodates world-grounded HMR models with or without explicit gravity-view representations. Specifically, Yaw-Aware Orientation Optimization (YAOO) resolves heading inconsistencies by correcting body and velocity orientations about the shared gravity axis. Conditioned on these corrected orientations, Gravity-Aware Trajectory Optimization (GATO) anchors root trajectories in the metric SLAM world by jointly leveraging 2D reprojection, the metric scale implicit in the human body, and the body's own motion. On EMDB-2, GravHMR achieves state-of-the-art performance with 154.0 mm W-MPJPE100 using ViPE and 189.8 mm using masked DROID-SLAM, outperforming TRAM (222.4 mm) under the same masked DROID-SLAM camera estimates. It further reduces W-MPJPE100 by 44.3% over GVHMR (276.5 mm) and by 20.0% over GVHMR + HTD-Refine (192.4 mm) with the same HMR backbone.",
       "published": "2026-11-22",
+      "arxiv_title": "GravHMR: Coupling SLAM and Human Mesh Recovery in a Shared Gravity Frame",
       "categories": [
         "cs.CV"
       ],
@@ -5327,7 +5327,6 @@
       "status": "active",
       "manual": false,
       "also_in": [],
-      "arxiv_title": "AnyVIO: Feed-Forward Streaming Visual-Inertial Odometry Across Platforms",
       "authors": [
         "Omoruyi Atekha",
         "Marcus Greiff",
@@ -5336,11 +5335,47 @@
       ],
       "abstract": "Geometric foundation models (GFMs) estimate camera mo- tion and scene structure from images without requiring ex- pert parameter tuning, but either lack metric scale or rely on learned priors to infer scale, which is unobservable from monocular images alone. Inertial sensing offers a way to observe metric scale, but existing methods add inertial in- formation through a filter or factor graph, which reintro- duces bespoke parameter tuning and optimization costs that can grow with the trajectory. To bridge this gap, we present AnyVIO, a real-time, feed-forward streaming model for monocular visual-inertial odometry (VIO), which combines a streaming GFM with an inertial foundation model (IFM). Both the GFM and IFM predict the metric motion between consecutive frames, and a lightweight learned fusion head quantifies the reliability of each estimate and blends them in a single forward pass. Across nine datasets recorded from cars, legged and ground robots, and handheld and head- mounted devices, AnyVIO reduces the metric position error of its visual model by 36% while publishing each pose esti- mate 70 ms after an image is received. We further deploy AnyVIO onboard two real vehicles at up to 140 km/h, where it remains accurate in poor lighting and heavy dust.",
       "published": "2026-11-19",
+      "arxiv_title": "AnyVIO: Feed-Forward Streaming Visual-Inertial Odometry Across Platforms",
       "categories": [
         "eess.IV"
       ],
       "enrichment": "ok",
       "enriched_at": "2026-11-24"
+    },
+    {
+      "id": "p-314b026852",
+      "title": "Stereo Visual Odometry with In-the-Loop Geometric Feed-Forward Models Towards Dense Metric Mapping",
+      "venue": "arXiv, 2026",
+      "year": 2026,
+      "section": "SLAM",
+      "slug": "slam",
+      "links": {
+        "paper": "https://arxiv.org/abs/2611.25445"
+      },
+      "arxiv_id": "2611.25445",
+      "order": 158,
+      "first_seen": "2026-11-25",
+      "status": "active",
+      "manual": false,
+      "also_in": [],
+      "arxiv_title": "Stereo Visual Odometry with In-the-Loop Geometric Feed-Forward Models Towards Dense Metric Mapping",
+      "authors": [
+        "Fahira Afzal Maken",
+        "Sagun Man Singh Shrestha",
+        "Edward Vanderfeen",
+        "Lucas Carvalho de Lima",
+        "Rongxin Li",
+        "Changming Sun",
+        "Milad Ramezani"
+      ],
+      "abstract": "We present a stereo visual odometry (SVO) framework that integrates geometric feed-forward models (GFMs) for dense depth prediction with factor-graph-based visual odometry to achieve accurate localisation and dense metric mapping. Our key idea is to exploit sparse but reliable metric geometry estimated from stereo and temporal multi-view observations to calibrate dense GFM predictions, while retaining the robustness and efficiency of model-based SVO. Rather than directly conditioning the GFM on potentially noisy stereo depth, optimised 3D landmarks are used to jointly estimate a scale-shift transformation over all keyframes within each local submap, yielding metrically consistent dense depth predictions. To balance accuracy and computational efficiency, we introduce a hierarchical factor-graph architecture. At the local level, sliding-window optimisation estimates high-frequency camera poses and multi-view-refined 3D landmarks. Dense predictions are generated only for selected keyframes and registered within each submap using SE(3) Generalised ICP. Consecutive submaps are further aligned in Sim(3) using their shared geometry, allowing residual scale inconsistencies to be corrected. These intra- and inter-submap constraints are incorporated into a global factor graph to produce a consistent trajectory and dense metric reconstruction. Extensive experiments on public and in-house datasets demonstrate that the proposed framework achieves competitive odometry accuracy against geometric and learning-based baselines while providing accurate dense metric reconstruction and improved robustness to failures in learned depth prediction.",
+      "published": "2026-11-19",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "enrichment": "ok",
+      "enriched_at": "2026-11-25"
     },
     {
       "id": "p-0fed75b9c7",
@@ -5353,7 +5388,7 @@
         "paper": "https://arxiv.org/pdf/2509.08813"
       },
       "arxiv_id": "2509.08813",
-      "order": 158,
+      "order": 159,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -5383,7 +5418,7 @@
         "paper": "https://arxiv.org/pdf/2511.05404"
       },
       "arxiv_id": "2511.05404",
-      "order": 159,
+      "order": 160,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -5415,7 +5450,7 @@
         "paper": "https://arxiv.org/pdf/2602.19735"
       },
       "arxiv_id": "2602.19735",
-      "order": 160,
+      "order": 161,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -5451,7 +5486,7 @@
         "code": "https://github.com/dtc111111/UniPR-3D"
       },
       "arxiv_id": "2512.21078",
-      "order": 161,
+      "order": 162,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -5487,7 +5522,7 @@
         "code": "https://github.com/dtc111111/Reloc-VGGT"
       },
       "arxiv_id": "2512.21883",
-      "order": 162,
+      "order": 163,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -5526,7 +5561,7 @@
         "code": "https://github.com/manycore-research/SpatialLM"
       },
       "arxiv_id": "2506.07491",
-      "order": 163,
+      "order": 164,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -5563,7 +5598,7 @@
         "code": "https://github.com/IMNearth/Spatial-X"
       },
       "arxiv_id": "2603.26837",
-      "order": 164,
+      "order": 165,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -5598,7 +5633,7 @@
         "paper": "https://ieeexplore.ieee.org/abstract/document/11449734/"
       },
       "arxiv_id": "",
-      "order": 165,
+      "order": 166,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,

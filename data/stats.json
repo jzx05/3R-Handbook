@@ -1,19 +1,19 @@
 {
   "schema_version": 1,
   "counts": {
-    "total": 167,
-    "active": 167,
+    "total": 168,
+    "active": 168,
     "removed": 0,
     "manual": 1,
     "by_year": {
       "2024": 6,
       "2025": 53,
-      "2026": 108
+      "2026": 109
     },
     "by_section": {
       "Survey Paper": 2,
       "3D Geometric Foundation Models (3R)": 69,
-      "SLAM": 88,
+      "SLAM": 89,
       "Calibration": 1,
       "Loop Closure Detection & Place Recognition": 4,
       "Downstream Tasks": 3
@@ -33,7 +33,7 @@
     {
       "name": "SLAM",
       "slug": "slam",
-      "count": 88
+      "count": 89
     },
     {
       "name": "Calibration",
@@ -53,6 +53,6 @@
   ],
   "source": {
     "repo": "3D-Vision-World/All-3R-SLAM-in-this-Repo",
-    "commit": "8b0d65be2600"
+    "commit": "266cd50646d0"
   }
 }

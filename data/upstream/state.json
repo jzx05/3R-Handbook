@@ -1,12 +1,12 @@
 {
-  "etag": "\"72e74356fddfb628f54e0747c5410de7c9847303908108829c396d5921c4e607\"",
+  "etag": "\"4014ebbdf6e2f38d2d983056a9f250615f3f02f19fda28bfa412d68578598e76\"",
   "last_modified": null,
   "source_id": "all-3r-slam",
-  "sha256": "9637fc8a7957eb0caa7967fd4c393330344d77d50d2b0a1bfa9241bfc0c70804",
-  "fetched_at": "2026-11-24T14:56:39Z",
+  "sha256": "a6746963076b28aa043ae6ce44840a8fe7476f7b92bba13772359e42e1e421bc",
+  "fetched_at": "2026-11-25T11:25:28Z",
   "commit": {
-    "sha": "8b0d65be2600",
-    "date": "2026-11-24T09:49:56Z",
-    "message": "Added two papers"
+    "sha": "266cd50646d0",
+    "date": "2026-11-25T01:50:47Z",
+    "message": "Merge pull request #13 from Minagami-Yuki/patch-10"
   }
 }

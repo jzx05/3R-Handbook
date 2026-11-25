@@ -2829,5 +2829,25 @@
       "cs.CV"
     ],
     "fetched_at": "2026-11-24"
+  },
+  "2611.25445": {
+    "title": "Stereo Visual Odometry with In-the-Loop Geometric Feed-Forward Models Towards Dense Metric Mapping",
+    "abstract": "We present a stereo visual odometry (SVO) framework that integrates geometric feed-forward models (GFMs) for dense depth prediction with factor-graph-based visual odometry to achieve accurate localisation and dense metric mapping. Our key idea is to exploit sparse but reliable metric geometry estimated from stereo and temporal multi-view observations to calibrate dense GFM predictions, while retaining the robustness and efficiency of model-based SVO. Rather than directly conditioning the GFM on potentially noisy stereo depth, optimised 3D landmarks are used to jointly estimate a scale-shift transformation over all keyframes within each local submap, yielding metrically consistent dense depth predictions. To balance accuracy and computational efficiency, we introduce a hierarchical factor-graph architecture. At the local level, sliding-window optimisation estimates high-frequency camera poses and multi-view-refined 3D landmarks. Dense predictions are generated only for selected keyframes and registered within each submap using SE(3) Generalised ICP. Consecutive submaps are further aligned in Sim(3) using their shared geometry, allowing residual scale inconsistencies to be corrected. These intra- and inter-submap constraints are incorporated into a global factor graph to produce a consistent trajectory and dense metric reconstruction. Extensive experiments on public and in-house datasets demonstrate that the proposed framework achieves competitive odometry accuracy against geometric and learning-based baselines while providing accurate dense metric reconstruction and improved robustness to failures in learned depth prediction.",
+    "authors": [
+      "Fahira Afzal Maken",
+      "Sagun Man Singh Shrestha",
+      "Edward Vanderfeen",
+      "Lucas Carvalho de Lima",
+      "Rongxin Li",
+      "Changming Sun",
+      "Milad Ramezani"
+    ],
+    "published": "2026-11-19",
+    "updated": "2026-11-19",
+    "categories": [
+      "cs.CV",
+      "cs.RO"
+    ],
+    "fetched_at": "2026-11-25"
   }
 }
