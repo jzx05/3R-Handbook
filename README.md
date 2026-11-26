@@ -20,9 +20,9 @@
 ## 数据快照
 
 <!-- AUTO:STATS:BEGIN -->
-> **168** 篇论文 · **6** 个分类 · 人工补充 **1** 篇 · 最近同步 **2026-11-25 11:25 UTC**
+> **171** 篇论文 · **6** 个分类 · 人工补充 **1** 篇 · 最近同步 **2026-11-26 13:58 UTC**
 >
-> 数据源：[3D-Vision-World/All-3R-SLAM-in-this-Repo](https://github.com/3D-Vision-World/All-3R-SLAM-in-this-Repo)@[266cd50646d0](https://github.com/3D-Vision-World/All-3R-SLAM-in-this-Repo/commit/266cd50646d0) · 2024 年 6 篇 · 2025 年 53 篇 · 2026 年 109 篇
+> 数据源：[3D-Vision-World/All-3R-SLAM-in-this-Repo](https://github.com/3D-Vision-World/All-3R-SLAM-in-this-Repo)@[600500afc0fb](https://github.com/3D-Vision-World/All-3R-SLAM-in-this-Repo/commit/600500afc0fb) · 2024 年 6 篇 · 2025 年 53 篇 · 2026 年 112 篇
 <!-- AUTO:STATS:END -->
 
 ## 导航
@@ -47,7 +47,7 @@
 |---|---:|---|
 | Survey Paper | 2 | [survey](papers/survey.md) |
 | 3D Geometric Foundation Models (3R) | 69 | [3r](papers/3r.md) |
-| SLAM | 89 | [slam](papers/slam.md) |
+| SLAM | 92 | [slam](papers/slam.md) |
 | Calibration | 1 | [calibration](papers/calibration.md) |
 | Loop Closure Detection & Place Recognition | 4 | [loop-closure](papers/loop-closure.md) |
 | Downstream Tasks | 3 | [downstream](papers/downstream.md) |
@@ -57,7 +57,9 @@
 ## 最近新增
 
 <!-- AUTO:RECENT:BEGIN -->
-- [Stereo Visual Odometry with In-the-Loop Geometric Feed-Forward Models Towards Dense Metric Mapping](https://arxiv.org/abs/2611.25445) — *arXiv, 2026* · SLAM
+- [Xtream: An Explicit Metric State for Large-Scale Streaming Reconstruction](https://arxiv.org/pdf/2611.31757) — *arXiv, 2026* · SLAM
+- [Confidently Lost: Silent Failure and Edge Deployment of Dense Visual SLAM under Photon Starvation](https://arxiv.org/pdf/2611.30173) — *arXiv, 2026* · SLAM
+- [ProManO: Beyond Sim(3) for Metric Upgrade of Feed-Forward Geometry with Visual-Inertial Anchors](https://arxiv.org/pdf/2611.34480) — *arXiv, 2026* · SLAM
 <!-- AUTO:RECENT:END -->
 
 ## 自动化是怎么工作的

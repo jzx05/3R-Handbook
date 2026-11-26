@@ -5,12 +5,12 @@
     "repo": "3D-Vision-World/All-3R-SLAM-in-this-Repo",
     "branch": "main",
     "readme_url": "https://raw.githubusercontent.com/3D-Vision-World/All-3R-SLAM-in-this-Repo/main/README.md",
-    "readme_sha256": "a6746963076b28aa043ae6ce44840a8fe7476f7b92bba13772359e42e1e421bc",
+    "readme_sha256": "d7656923a86a155f26826c6fba317ffeb723e75d127a1a31a54a67134e190bfe",
     "snapshot": "data/upstream/README.md",
     "commit": {
-      "sha": "266cd50646d0",
-      "date": "2026-11-25T01:50:47Z",
-      "message": "Merge pull request #13 from Minagami-Yuki/patch-10"
+      "sha": "600500afc0fb",
+      "date": "2026-11-26T07:25:09Z",
+      "message": "Added 3 paerps"
     },
     "mode": "network"
   },
@@ -31,7 +31,7 @@
       "name": "SLAM",
       "slug": "slam",
       "order": 2,
-      "count": 89
+      "count": 92
     },
     {
       "name": "Calibration",
@@ -53,19 +53,19 @@
     }
   ],
   "counts": {
-    "total": 168,
-    "active": 168,
+    "total": 171,
+    "active": 171,
     "removed": 0,
     "manual": 1,
     "by_year": {
       "2024": 6,
       "2025": 53,
-      "2026": 109
+      "2026": 112
     },
     "by_section": {
       "Survey Paper": 2,
       "3D Geometric Foundation Models (3R)": 69,
-      "SLAM": 89,
+      "SLAM": 92,
       "Calibration": 1,
       "Loop Closure Detection & Place Recognition": 4,
       "Downstream Tasks": 3
@@ -5358,7 +5358,6 @@
       "status": "active",
       "manual": false,
       "also_in": [],
-      "arxiv_title": "Stereo Visual Odometry with In-the-Loop Geometric Feed-Forward Models Towards Dense Metric Mapping",
       "authors": [
         "Fahira Afzal Maken",
         "Sagun Man Singh Shrestha",
@@ -5370,12 +5369,114 @@
       ],
       "abstract": "We present a stereo visual odometry (SVO) framework that integrates geometric feed-forward models (GFMs) for dense depth prediction with factor-graph-based visual odometry to achieve accurate localisation and dense metric mapping. Our key idea is to exploit sparse but reliable metric geometry estimated from stereo and temporal multi-view observations to calibrate dense GFM predictions, while retaining the robustness and efficiency of model-based SVO. Rather than directly conditioning the GFM on potentially noisy stereo depth, optimised 3D landmarks are used to jointly estimate a scale-shift transformation over all keyframes within each local submap, yielding metrically consistent dense depth predictions. To balance accuracy and computational efficiency, we introduce a hierarchical factor-graph architecture. At the local level, sliding-window optimisation estimates high-frequency camera poses and multi-view-refined 3D landmarks. Dense predictions are generated only for selected keyframes and registered within each submap using SE(3) Generalised ICP. Consecutive submaps are further aligned in Sim(3) using their shared geometry, allowing residual scale inconsistencies to be corrected. These intra- and inter-submap constraints are incorporated into a global factor graph to produce a consistent trajectory and dense metric reconstruction. Extensive experiments on public and in-house datasets demonstrate that the proposed framework achieves competitive odometry accuracy against geometric and learning-based baselines while providing accurate dense metric reconstruction and improved robustness to failures in learned depth prediction.",
       "published": "2026-11-19",
+      "arxiv_title": "Stereo Visual Odometry with In-the-Loop Geometric Feed-Forward Models Towards Dense Metric Mapping",
       "categories": [
         "cs.CV",
         "cs.RO"
       ],
       "enrichment": "ok",
       "enriched_at": "2026-11-25"
+    },
+    {
+      "id": "p-5cfc2db4c2",
+      "title": "Xtream: An Explicit Metric State for Large-Scale Streaming Reconstruction",
+      "venue": "arXiv, 2026",
+      "year": 2026,
+      "section": "SLAM",
+      "slug": "slam",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2611.31757",
+        "code": "https://github.com/ErnestoLozano/Xtream",
+        "website": "https://ernestolozano.github.io/xtream/"
+      },
+      "arxiv_id": "2611.31757",
+      "order": 159,
+      "first_seen": "2026-11-26",
+      "status": "active",
+      "manual": false,
+      "also_in": [],
+      "arxiv_title": "Xtream: An Explicit Metric State for Large-Scale Streaming Reconstruction",
+      "authors": [
+        "Ernesto Lozano",
+        "Alberto Jaenal",
+        "Javier Civera"
+      ],
+      "abstract": "3D foundation models (3DFMs) enable dense reconstruction in a feed-forward pass, yet their effective span is limited by cross-view attention. Local consistency has been expanded through geometric alignment of video chunks and recursive updates of an implicit memory, and large-scale scenes with pose graphs. However, both strategies are prone to drift, largely due to the lack of metric-scale observability from monocular geometry. We present Xtream,a hybrid streaming pipeline that maintains an explicit metric state through a factor graph over keyframes, while using a 3DFM as a geometric front end. Xtream incorporates metric information in two ways: through metric scale predictions from 3DFMs; or through inertial measurements if available. Across the large-scale benchmarks of VBR, Oxford Spires and KITTI, Xtream achieves state-of-the-art performance in 3DFM-based online reconstruction, reducing average absolute trajectory errors compared with published baselines and concurrent work. https://ernestolozano.github.io/xtream",
+      "published": "2026-11-24",
+      "categories": [
+        "cs.CV"
+      ],
+      "enrichment": "ok",
+      "enriched_at": "2026-11-26"
+    },
+    {
+      "id": "p-c82f9d9b78",
+      "title": "Confidently Lost: Silent Failure and Edge Deployment of Dense Visual SLAM under Photon Starvation",
+      "venue": "arXiv, 2026",
+      "year": 2026,
+      "section": "SLAM",
+      "slug": "slam",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2611.30173"
+      },
+      "arxiv_id": "2611.30173",
+      "order": 160,
+      "first_seen": "2026-11-26",
+      "status": "active",
+      "manual": false,
+      "also_in": [],
+      "arxiv_title": "Confidently Lost: Silent Failure and Edge Deployment of Dense Visual SLAM under Photon Starvation",
+      "authors": [
+        "Shrikrishna Bhagirath Rajule",
+        "Srinath Neelamagam",
+        "Aniket Bera"
+      ],
+      "abstract": "Dense visual SLAM built on learned two-view geometry is evaluated in good light; in low light it fails silently. Two frames of 9-level quantized noise, no scene at all, give MASt3R-SLAM's network a cross-view geometric self-consistency of 0.936; a real dark frame pair gives 0.935. Starved of structure, the network invents the same geometry for both views and the system trusts the agreement: on a dark sequence it consumes 1,605 frames, emits 7 keyframes, rejects no factor-graph edges and reports full frame rate, while over 95% of the correspondences it accepts violate the ground-truth epipolar geometry. One inflated statistic is read by two subsystems against thresholds in opposite directions, so keyframing starves while relocalization accepts almost every candidate. The same statistic, read at keyframe-pair baselines, separates the confident collapse from working runs on the ETH3D dark sequences without ground truth or extra computation (in-sample). Low-light-adapted weights take tracked trajectories from 1/6 to 5/6, as does retuning two thresholds; neither yields accurate ones, because the adaptation withdraws confidence from wrong geometry rather than finding right geometry. Replayed on a Jetson AGX Orin carried by a legged robot, the mechanism's signature reproduces on the two darkest of four routes, and which of its faces appears varies with route geometry and sensor encoding. The network does not lose confidence in the dark; it manufactures it.",
+      "published": "2026-11-23",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "enrichment": "ok",
+      "enriched_at": "2026-11-26"
+    },
+    {
+      "id": "p-e602ca67ec",
+      "title": "ProManO: Beyond Sim(3) for Metric Upgrade of Feed-Forward Geometry with Visual-Inertial Anchors",
+      "venue": "arXiv, 2026",
+      "year": 2026,
+      "section": "SLAM",
+      "slug": "slam",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2611.34480",
+        "website": "https://h0xg.github.io/ProManO/"
+      },
+      "arxiv_id": "2611.34480",
+      "order": 161,
+      "first_seen": "2026-11-26",
+      "status": "active",
+      "manual": false,
+      "also_in": [],
+      "arxiv_title": "ProManO: Beyond Sim(3) for Metric Upgrade of Feed-Forward Geometry with Visual-Inertial Anchors",
+      "authors": [
+        "Lingxiang Hu",
+        "Zhenjun Zhao",
+        "Qi Shao",
+        "Naima Ait Oufroukh",
+        "Fabien Bonardi",
+        "Raymond Ghandour",
+        "Shenghai Yuan",
+        "Javier Civera",
+        "Baoru Huang"
+      ],
+      "abstract": "Upgrading feed-forward geometry to metric scale with visual-inertial odometry (VIO) raises the question of which correction should align dense feed-forward prediction with sparse metric VIO anchors. Existing methods use either a similarity transformation, which cannot represent depth-dependent distortion, or a projective transformation, which alters pre-calibrated intrinsics. We prove that the transformations compatible with pre-calibrated intrinsics form a ten-dimensional manifold. Beyond Sim(3), this manifold contains three degrees of freedom (DoF) that locate the plane at infinity and leave residuals growing quadratically with depth range after any similarity alignment. These DoF are invisible in the image and can be resolved only by metric depth along viewing rays or by multi-view constraints. To estimate them, we propose ProManO, a probabilistic manifold optimization framework in which every anchor is weighted by its along-ray uncertainty and inlier probability within a single expectation-maximization (EM) procedure. ProManO certifies the similarity synchronization and refines the plane at infinity only where it is observable, which guarantees an objective value no worse than that of the optimal similarity alignment. Experiments on EuRoC, CID-SIMS, Oxford Spires, and KITTI-360 demonstrate that ProManO achieves the highest mean F1 and outperforms Sim(3) alignment on all four datasets. The project page is available at https://h0xg.github.io/ProManO/.",
+      "published": "2026-11-25",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "enrichment": "ok",
+      "enriched_at": "2026-11-26"
     },
     {
       "id": "p-0fed75b9c7",
@@ -5388,7 +5489,7 @@
         "paper": "https://arxiv.org/pdf/2509.08813"
       },
       "arxiv_id": "2509.08813",
-      "order": 159,
+      "order": 162,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -5418,7 +5519,7 @@
         "paper": "https://arxiv.org/pdf/2511.05404"
       },
       "arxiv_id": "2511.05404",
-      "order": 160,
+      "order": 163,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -5450,7 +5551,7 @@
         "paper": "https://arxiv.org/pdf/2602.19735"
       },
       "arxiv_id": "2602.19735",
-      "order": 161,
+      "order": 164,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -5486,7 +5587,7 @@
         "code": "https://github.com/dtc111111/UniPR-3D"
       },
       "arxiv_id": "2512.21078",
-      "order": 162,
+      "order": 165,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -5522,7 +5623,7 @@
         "code": "https://github.com/dtc111111/Reloc-VGGT"
       },
       "arxiv_id": "2512.21883",
-      "order": 163,
+      "order": 166,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -5561,7 +5662,7 @@
         "code": "https://github.com/manycore-research/SpatialLM"
       },
       "arxiv_id": "2506.07491",
-      "order": 164,
+      "order": 167,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -5598,7 +5699,7 @@
         "code": "https://github.com/IMNearth/Spatial-X"
       },
       "arxiv_id": "2603.26837",
-      "order": 165,
+      "order": 168,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,
@@ -5633,7 +5734,7 @@
         "paper": "https://ieeexplore.ieee.org/abstract/document/11449734/"
       },
       "arxiv_id": "",
-      "order": 166,
+      "order": 169,
       "first_seen": "2026-11-06",
       "status": "active",
       "manual": false,

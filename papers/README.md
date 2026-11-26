@@ -4,7 +4,7 @@
 
 > 自动抓取并解析自 [3D-Vision-World/All-3R-SLAM-in-this-Repo](https://github.com/3D-Vision-World/All-3R-SLAM-in-this-Repo)，人工补充条目单独标记。
 
-**168 篇** · **6 个分类** · 最近同步：2026-11-25 11:25 UTC
+**171 篇** · **6 个分类** · 最近同步：2026-11-26 13:58 UTC
 
 ## 分类
 
@@ -12,7 +12,7 @@
 |---|---:|---|
 | Survey Paper | 2 | [survey](survey.md) |
 | 3D Geometric Foundation Models (3R) | 69 | [3r](3r.md) |
-| SLAM | 89 | [slam](slam.md) |
+| SLAM | 92 | [slam](slam.md) |
 | Calibration | 1 | [calibration](calibration.md) |
 | Loop Closure Detection & Place Recognition | 4 | [loop-closure](loop-closure.md) |
 | Downstream Tasks | 3 | [downstream](downstream.md) |
@@ -21,4 +21,6 @@
 
 ## 最近新增
 
-- [Stereo Visual Odometry with In-the-Loop Geometric Feed-Forward Models Towards Dense Metric Mapping](https://arxiv.org/abs/2611.25445) — *arXiv, 2026* · SLAM
+- [Xtream: An Explicit Metric State for Large-Scale Streaming Reconstruction](https://arxiv.org/pdf/2611.31757) — *arXiv, 2026* · SLAM
+- [Confidently Lost: Silent Failure and Edge Deployment of Dense Visual SLAM under Photon Starvation](https://arxiv.org/pdf/2611.30173) — *arXiv, 2026* · SLAM
+- [ProManO: Beyond Sim(3) for Metric Upgrade of Feed-Forward Geometry with Visual-Inertial Anchors](https://arxiv.org/pdf/2611.34480) — *arXiv, 2026* · SLAM
