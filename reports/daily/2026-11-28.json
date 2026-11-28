@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-28",
+  "runs": [
+    {
+      "sync_time": "2026-11-28T13:10:10Z",
+      "mode": "incremental",
+      "created": [
+        "p-f5eeff2af7"
+      ],
+      "updated": [],
+      "removed": [],
+      "counts": {
+        "total": 172,
+        "active": 172,
+        "removed": 0,
+        "manual": 1,
+        "by_year": {
+          "2024": 6,
+          "2025": 53,
+          "2026": 113
+        },
+        "by_section": {
+          "Survey Paper": 3,
+          "3D Geometric Foundation Models (3R)": 69,
+          "SLAM": 92,
+          "Calibration": 1,
+          "Loop Closure Detection & Place Recognition": 4,
+          "Downstream Tasks": 3
+        }
+      },
+      "source": {
+        "id": "all-3r-slam",
+        "repo": "3D-Vision-World/All-3R-SLAM-in-this-Repo",
+        "branch": "main",
+        "readme_url": "https://raw.githubusercontent.com/3D-Vision-World/All-3R-SLAM-in-this-Repo/main/README.md",
+        "readme_sha256": "c1421ed98039e99afb5b4201497d5b694246bc853d605fd87f28f9fcd6f453ce",
+        "snapshot": "data/upstream/README.md",
+        "commit": {
+          "sha": "4bd6ebd70749",
+          "date": "2026-11-28T07:03:04Z",
+          "message": "Added Long-Video 3D Reconstruction with Geometric Foundation Models: Streaming Inference, Memory Mechanisms, and Global Consistency"
+        },
+        "mode": "network"
+      }
+    }
+  ]
+}

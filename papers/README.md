@@ -4,13 +4,13 @@
 
 > 自动抓取并解析自 [3D-Vision-World/All-3R-SLAM-in-this-Repo](https://github.com/3D-Vision-World/All-3R-SLAM-in-this-Repo)，人工补充条目单独标记。
 
-**171 篇** · **6 个分类** · 最近同步：2026-11-26 13:58 UTC
+**172 篇** · **6 个分类** · 最近同步：2026-11-28 13:10 UTC
 
 ## 分类
 
 | 分类 | 数量 | 入口 |
 |---|---:|---|
-| Survey Paper | 2 | [survey](survey.md) |
+| Survey Paper | 3 | [survey](survey.md) |
 | 3D Geometric Foundation Models (3R) | 69 | [3r](3r.md) |
 | SLAM | 92 | [slam](slam.md) |
 | Calibration | 1 | [calibration](calibration.md) |
@@ -21,6 +21,4 @@
 
 ## 最近新增
 
-- [Xtream: An Explicit Metric State for Large-Scale Streaming Reconstruction](https://arxiv.org/pdf/2611.31757) — *arXiv, 2026* · SLAM
-- [Confidently Lost: Silent Failure and Edge Deployment of Dense Visual SLAM under Photon Starvation](https://arxiv.org/pdf/2611.30173) — *arXiv, 2026* · SLAM
-- [ProManO: Beyond Sim(3) for Metric Upgrade of Feed-Forward Geometry with Visual-Inertial Anchors](https://arxiv.org/pdf/2611.34480) — *arXiv, 2026* · SLAM
+- [Long-Video 3D Reconstruction with Geometric Foundation Models: Streaming Inference, Memory Mechanisms, and Global Consistency](https://www.mdpi.com/1424-8220/26/23/7450) — *arXiv 2026* · Survey Paper

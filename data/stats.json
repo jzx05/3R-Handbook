@@ -1,17 +1,17 @@
 {
   "schema_version": 1,
   "counts": {
-    "total": 171,
-    "active": 171,
+    "total": 172,
+    "active": 172,
     "removed": 0,
     "manual": 1,
     "by_year": {
       "2024": 6,
       "2025": 53,
-      "2026": 112
+      "2026": 113
     },
     "by_section": {
-      "Survey Paper": 2,
+      "Survey Paper": 3,
       "3D Geometric Foundation Models (3R)": 69,
       "SLAM": 92,
       "Calibration": 1,
@@ -23,7 +23,7 @@
     {
       "name": "Survey Paper",
       "slug": "survey",
-      "count": 2
+      "count": 3
     },
     {
       "name": "3D Geometric Foundation Models (3R)",
@@ -53,6 +53,6 @@
   ],
   "source": {
     "repo": "3D-Vision-World/All-3R-SLAM-in-this-Repo",
-    "commit": "600500afc0fb"
+    "commit": "4bd6ebd70749"
   }
 }

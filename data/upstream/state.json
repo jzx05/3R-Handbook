@@ -1,12 +1,12 @@
 {
-  "etag": "\"f7dfc694ed4b0950495fb1853ca798c1882e425d45dab18ad6d2d0500e6d5f8e\"",
+  "etag": "\"324796904843eeb04576f3de37579adb9fe8a80f1a2d7cc145e110250479970b\"",
   "last_modified": null,
   "source_id": "all-3r-slam",
-  "sha256": "d7656923a86a155f26826c6fba317ffeb723e75d127a1a31a54a67134e190bfe",
-  "fetched_at": "2026-11-26T13:58:33Z",
+  "sha256": "c1421ed98039e99afb5b4201497d5b694246bc853d605fd87f28f9fcd6f453ce",
+  "fetched_at": "2026-11-28T13:10:10Z",
   "commit": {
-    "sha": "600500afc0fb",
-    "date": "2026-11-26T07:25:09Z",
-    "message": "Added 3 paerps"
+    "sha": "4bd6ebd70749",
+    "date": "2026-11-28T07:03:04Z",
+    "message": "Added Long-Video 3D Reconstruction with Geometric Foundation Models: Streaming Inference, Memory Mechanisms, and Global Consistency"
   }
 }

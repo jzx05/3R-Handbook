@@ -4,11 +4,12 @@
 
 > 综述、立场文章与问题驱动视角的总览。
 
-**2 篇** · 数据来源：[3D-Vision-World/All-3R-SLAM-in-this-Repo](https://github.com/3D-Vision-World/All-3R-SLAM-in-this-Repo) · 本页自动生成，最后同步见仓库首页。
+**3 篇** · 数据来源：[3D-Vision-World/All-3R-SLAM-in-this-Repo](https://github.com/3D-Vision-World/All-3R-SLAM-in-this-Repo) · 本页自动生成，最后同步见仓库首页。
 
 | # | 论文 | 会议/年份 | 年份 | 资源 |
 |---:|---|---|---:|---|
 | 1 | [Feed-Forward 3D Scene Modeling: A Problem-Driven Perspective](https://arxiv.org/pdf/2604.14025) | arXiv 2026 | 2026 | [Project](https://github.com/ziplab/Awesome-Feed-Forward-3D) |
-| 2 | [Advances in Feed-Forward 3D Reconstruction and View Synthesis: A Survey](https://arxiv.org/pdf/2507.14501) | arXiv 2025 | 2025 | [Project](https://fnzhan.com/projects/Feed-Forward-3D/) |
+| 2 | [Long-Video 3D Reconstruction with Geometric Foundation Models: Streaming Inference, Memory Mechanisms, and Global Consistency](https://www.mdpi.com/1424-8220/26/23/7450) | arXiv 2026 | 2026 | [PDF](https://www.mdpi.com/1424-8220/26/23/7450) |
+| 3 | [Advances in Feed-Forward 3D Reconstruction and View Synthesis: A Survey](https://arxiv.org/pdf/2507.14501) | arXiv 2025 | 2025 | [Project](https://fnzhan.com/projects/Feed-Forward-3D/) |
 
 > 条目由 [scripts/sync_upstream.py](../scripts/sync_upstream.py) 从上游 README 解析生成；标题、会议与链接以原论文/项目页为准。
